@@ -1,2 +1,7 @@
 site_name: Grupo B - UAM
 site_url: https://betina-boop.github.io/Grupo-B/
+
+
+nav:
+  - Home: index.md
+  - Integrantes: integrantes.md
