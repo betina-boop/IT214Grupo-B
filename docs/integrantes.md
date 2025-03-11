@@ -6,19 +6,19 @@
 > - **Programa:** CTE-E
 
 - **Rodrigo Mollo Furlan**
-> - **Formação:**
-> - **Nível:** 
-> - **Programa:** 
+> - **Formação:** Engenharia Civil
+> - **Nível:** Mestrado
+> - **Programa:** EIA-T
 
 - **Enzo Carmine Picchiello**
-> - **Formação:**
-> - **Nível:** 
-> - **Programa:** 
+> - **Formação:** Logística e Transportes / Biomedicina / Mestre em Ciências 
+> - **Nível:** Doutorado
+> - **Programa:** EIA-T
 
 - **Walter Albuquerque de Sá**
-> - **Formação:**
-> - **Nível:** 
-> - **Programa:** 
+> - **Formação:** Ciências Jurídicas 
+> - **Nível:** Mestrado
+> - **Programa:** MP Empreendedorismo FEA/USP
 
 - **Francisco Henrique Figueiredo Araujo**
 > - **Formação:** Engenharia Eletrônica
