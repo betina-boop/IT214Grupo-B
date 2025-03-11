@@ -20,7 +20,7 @@
 > - **Nível:** 
 > - **Programa:** 
 
-- **Noa Eléonore Chaze**
-> - **Formação:**
-> - **Nível:** 
-> - **Programa:** 
+- **Francisco Henrique Figueiredo Araujo**
+> - **Formação:** Engenharia Eletrônica
+> - **Nível:** Mestrado
+> - **Programa:** CTE-E
