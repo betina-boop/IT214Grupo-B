@@ -20,7 +20,7 @@
 > - **Nível:** Mestrado
 > - **Programa:** MP Empreendedorismo FEA/USP
 
-- **Francisco Henrique Figueiredo Araujo**
-> - **Formação:** Engenharia Eletrônica
+- **Guilherme Henrique Coelho Cabral**
+> - **Formação:** Engenharia Aeroespacial
 > - **Nível:** Mestrado
-> - **Programa:** CTE-E
+> - **Programa:** EIA-T
