@@ -5,3 +5,4 @@ site_url: https://betina-boop.github.io/Grupo-B/
 nav:
   - Home: index.md
   - Integrantes: integrantes.md
+  - Referências: referencias.md
