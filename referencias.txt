@@ -1,0 +1,3 @@
+**INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA – IBGE.** Joinville. 
+Disponível em: https://www.ibge.gov.br/cidades-e-estados/sc/joinville.html. Acesso em: 17 mar. 2025.
+
