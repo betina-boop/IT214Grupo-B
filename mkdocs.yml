@@ -5,4 +5,5 @@ site_url: https://betina-boop.github.io/Grupo-B/
 nav:
   - Home: index.md
   - Integrantes: integrantes.md
+  - A1 - 18/03/2025: atividade1.md
   - Referências: referencias.md
