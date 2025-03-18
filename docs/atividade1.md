@@ -3,9 +3,7 @@ O principal fator que levou a escolha da cidade de Joinville para a elaboração
 
 ![Joinville ENAP](imagens/joinvilleenap.png)
 
-Figura 1: Classificação de Joinville no Índice de Cidades Empreendedoras.
-
-Fonte: ENAP, 2023. Disponível em: <https://ice.enap.gov.br/ranking>.
+Figura 1: Classificação de Joinville no Índice de Cidades Empreendedoras[1].
 
 **Área Territorial:** 1.127.947 km²  
 **População:** 616.317 pessoas  
@@ -22,37 +20,23 @@ A cidade de Joinville se localiza na região leste do estado de Santa Catarina, 
 
 ![Localização Joinville](imagens/mapa_sc.png)
 
-Figura 2: Municípios Integrantes das intermediações de Joinville.
-
-Fonte: Secretaria de Pesquisa e Planejamento Urbano - SEPUR, 2024. Disponível em: <https://www.joinville.sc.gov.br/wp-content/uploads/2024/07/Joinville-Cidade-em-Dados-2024-–-Ambiente-Construido.pdf>.
-
+Figura 2: Municípios Integrantes das intermediações de Joinville[2].
 
 ![Joinville ENAP](imagens/areas_joinville.png)
 
-Figura 3: Totalidade de quilometros quadrados de extensão das regiões próximas a Joinville.
-
-Fonte: Secretaria de Pesquisa e Planejamento Urbano - SEPUR, 2024. Disponível em: <https://www.joinville.sc.gov.br/wp-content/uploads/2024/07/Joinville-Cidade-em-Dados-2024-–-Ambiente-Construido.pdf>.
+Figura 3: Totalidade de quilometros quadrados de extensão das regiões próximas a Joinville[2].
 
 ![Joinville ENAP](imagens/areas_joinville2.png)
 
-Figura 4: Divisão Administrativa de Joinville.
-
-Fonte: Secretaria de Pesquisa e Planejamento Urbano - SEPUR, 2024. Disponível em: <https://www.joinville.sc.gov.br/wp-content/uploads/2024/07/Joinville-Cidade-em-Dados-2024-–-Ambiente-Construido.pdf>.
-
+Figura 4: Divisão Administrativa de Joinville[2].
 
 ![Joinville ENAP](imagens/tabela_joinville.png)
 
-Figura 5: Municípios integrantes das regiões geográficas imediata e intermediária de Joinville.
-
-Fonte: Secretaria de Pesquisa e Planejamento Urbano - SEPUR, 2024. Disponível em: <https://www.joinville.sc.gov.br/wp-content/uploads/2024/07/Joinville-Cidade-em-Dados-2024-–-Ambiente-Construido.pdf>.
-
+Figura 5: Municípios integrantes das regiões geográficas imediata e intermediária de Joinville[2].
 
 ![Joinville ENAP](imagens/principais_acessos.png)
 
-Figura 6: Principais acessos a Joinville.
-
-Fonte: Secretaria de Pesquisa e Planejamento Urbano - SEPUR, 2024. Disponível em: <https://www.joinville.sc.gov.br/wp-content/uploads/2024/07/Joinville-Cidade-em-Dados-2024-–-Ambiente-Construido.pdf>.
-
+Figura 6: Principais acessos a Joinville[2].
 
 
 Mapa da área urbana de Joinville com densidade populacional, raios de abrangência e localização das praças e parques identificados pelo IPPUJ. Fonte: IPPUJ, 2015, Franceschet Goettems, Renata, 2016.
