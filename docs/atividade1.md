@@ -10,6 +10,10 @@ Joinville é uma cidade estratégica localizada no norte de Santa Catarina, dest
 
 Sua localização próxima ao litoral catarinense e à cidade de Curitiba, aliada à diversidade de setores econômicos, faz de Joinville uma cidade vibrante, com forte crescimento e grande influência na economia regional e nacional.
 
+![Joinville ENAP](imagens/joinvilleenap.png)
+
+Figura 1: Índice de Cidades Empreendedoras ENAP, 2023[1].
+
 ---
 
 ## **Divisão Geográfica**
