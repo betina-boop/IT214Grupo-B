@@ -15,3 +15,4 @@ Explore bases de dados GIS disponíveis para a região.
 
 ![Indíce de cidades empreendedoras](C:\Users\beta_\IT214Grupo-B\imagens\joinvilleenap.png)
 
+<img src="C:\Users\beta_\IT214Grupo-B\imagens\joinvilleenap.png" alt="Índice de cidades empreendedoras" width="300">

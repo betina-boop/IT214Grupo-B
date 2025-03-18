@@ -1,4 +1,4 @@
-# Integrantes
+## Integrantes
 
 - **Betina Luísa Lenhard**
 > - **Formação:** Engenharia Aeroespacial
