@@ -12,7 +12,4 @@ Localize informações sobre uso e ocupação do solo;
 Pesquise as regulamentações que poderiam impactar a instalação de vertiportos;
 Explore bases de dados GIS disponíveis para a região.
 
-
-![Indíce de cidades empreendedoras](C:\Users\beta_\IT214Grupo-B\imagens\joinvilleenap.png)
-
-<img src="C:\Users\beta_\IT214Grupo-B\imagens\joinvilleenap.png" alt="Índice de cidades empreendedoras" width="300">
+![Joinville ENAP](imagens/joinvilleenap.png)
