@@ -48,18 +48,24 @@ Cada uma dessas regiões apresenta características únicas:
 
 ## **Camada 1: Dados Geoespaciais e Regulatórios**
 ### **Fontes de Dados Geoespaciais**
+
+![Localização Joinville](imagens/ibge.jpeg)
+
 - [IBGE - Dados sobre Joinville](https://www.ibge.gov.br/cidades-e-estados/sc/joinville.html)  
+
+- Dados LIDAR ([Certificado de potencial adicional de construção a partir de dados LIDAR e parametrização no CITYENGINE](https://seer.ufu.br/index.php/revistabrasileiracartografia/article/view/49231))
+
 - **Mapa interativo disponível no GitHub**  
 
 ### **Leis e Regulamentações**
-- **Lei Complementar nº 27/96:** Normas de uso e ocupação do solo ([Leis Municipais](https://metaimoveisjoinville.com.br))  
-- **Lei Complementar nº 470 (LOT):** Parcelamento, uso e ocupação do solo ([Gmais](https://metaimoveisjoinville.com.br))  
-- **Emendas à Lei de Uso e Ocupação do Solo:** [Disponível no NSC Total](#)  
+- **Lei Complementar nº 27/96:** Normas de uso e ocupação do solo ([Leis Municipais](https://www.jusbrasil.com.br/legislacao/507924/lei-complementar-27-96))  
+- **Lei Complementar nº 470 (LOT):** Parcelamento, uso e ocupação do solo ([Gmais](https://leismunicipais.com.br/a1/plano-de-zoneamento-uso-e-ocupacao-do-solo-joinville-sc))  
+- **Emendas à Lei de Uso e Ocupação do Solo:** ([Disponível no NSC Total](https://www.nsctotal.com.br/noticias/as-emendas-da-lei-de-uso-e-ocupacao-do-solo-de-joinville))  
 
 ### **Licenciamento e Impactos Urbanos**
-- O **licenciamento ambiental** é essencial para projetos urbanos como vertiportos.  
-- O **Plano de Mobilidade Urbana de Joinville** pode impactar a instalação de novas infraestruturas.  
-- O **Plano Diretor de Joinville** define as diretrizes para o crescimento da cidade.  
+- **Licenciamento ambiental** é essencial para projetos urbanos como vertiportos.  
+- **Plano de Mobilidade Urbana de Joinville** pode impactar a instalação de novas infraestruturas.  
+- **Plano Diretor de Joinville** define as diretrizes para o crescimento da cidade.  
 
 ### **Bases de Dados GIS**
 - **[SIMGeo - Sistema de Informações Municipais Georreferenciadas](https://geo.joinville.sc.gov.br/portal/apps/simgeo/index.html)**  
@@ -106,10 +112,6 @@ Distâncias dos Portos até 125Km:
 
 Figura 7: Padrão de deslocamento dos joinvilenses pelo município[3].
 
-
-![Joinville ENAP](imagens/trafego_joinville.png)
-
-Figura 8: Pontos de tráfego intenso em horário de pico[4].
 
 
 
