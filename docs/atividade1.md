@@ -38,12 +38,14 @@ Cidade estratégica localizada no norte de Santa Catarina, destacando-se como um
 Sua **localização próxima à cidade de Curitiba (capital estadual) e ao litoral catarinense (polo turístico)**, aliada à diversidade de setores econômicos, faz de Joinville uma cidade vibrante, com forte crescimento e grande influência na economia regional e nacional.
 
 **Destaques da Cidade**
+
 - Infraestrutura moderna e bem desenvolvida;
 - Alto índice de qualidade de vida;
 - Centro industrial e logístico de grande relevância;
 - Cultura rica.
 
 **Dados Gerais**
+
 - **Área Territorial:** 1.127,947 km² (*IBGE*)  
 - **População (IBGE 2022):** 616.317 habitantes  
 - **Densidade demográfica:** 546,41 hab/km²  
