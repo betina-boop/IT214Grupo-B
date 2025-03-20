@@ -4,17 +4,19 @@
 
 ![Joinville ENAP](imagens/joinville_enap.png)
 
-Figura 1: Índice de Cidades Empreendedoras ENAP, 2023[1].
+_Figura 1: Índice de Cidades Empreendedoras ENAP, 2023[1]._
 
 - Inovação;
 - Porte do município;  
+---
 
 #### 3. **Dados da Cidade**
 
 ![Referências](imagens/dados_cidade.png)
 
-Figura 2: Referências de Joinville, 2023[1] e 2024[2].
+_Figura 2: Referências de Joinville, 2023[1] e 2024[2]._
 
+---
 
 #### 4. **Destaques dos Dados**
 
@@ -22,7 +24,7 @@ Figura 2: Referências de Joinville, 2023[1] e 2024[2].
 
 ![Cultura de Inovação](imagens/cultura_inovacao.png)
 
-Figura 3: Índice de Cidades Empreendedoras ENAP, 2023[1].
+_Figura 3: Centros de Inovação, SCTI[3]._
 
 - Centros de Inovação;
 - Starups (modelos de negócio);
@@ -50,42 +52,42 @@ Sua **localização próxima à cidade de Curitiba (capital estadual) e ao litor
 
 ![Divisao](imagens/divisao.png)
 
-Figura 3: Divisão Territorial, ENAP 2023[1].
-
+_Figura 4: Divisão Territorial, SIMGeo [4]._
 
 ![remuneracao](imagens/remuneracao.png)
 
-Figura 4: Remuneração Média Mensal, 2023[1].
+_Figura 5: Remuneração Média Mensal, RAIS[5]._
 
-![Joinville ENAP](imagens/salario_medio.png)
+![salario](imagens/salario_medio.png)
 
-Figura 5: Índice de Cidades Empreendedoras ENAP, 2023[1].
+_Figura 6: Salário Médio Mensal, IBGE[6]._
 
 
 ##### 4.3 **Transporte Multimodal**
 
 **Rodoviário**
-![Joinville ENAP](imagens/principais_acessos.png)
+![acessos](imagens/principais_acessos.png)
 
-Figura 6: Índice de Cidades Empreendedoras ENAP, 2023[1].
+_Figura 7: Principais Acessos a Joinville, SEPUR[2]._
 
-![Joinville ENAP](imagens/veiculos_circulacao.png)
+![veiculos](imagens/veiculos_circulacao.png)
 
-Figura 7: Índice de Cidades Empreendedoras ENAP, 2023[1].
+_Figura 8: Veículos em Circulação em Joinville, DETRAN[2]._
 
-![Joinville ENAP](imagens/viagens.png)
+![viagens](imagens/viagens.png)
 
-Figura 8: Índice de Cidades Empreendedoras ENAP, 2023[1].
+_Figura 9: Número de viagens por modal de transporte, DETRAN[2]._
 
 **Aéreo - Aeroporto Lauro Carneiro de Loyola**
 
-![Joinville ENAP](imagens/aeroporto.png)
+![aeroporto](imagens/aeroporto.png)
 
-Figura 9: Índice de Cidades Empreendedoras ENAP, 2023[1].
+_Figura 10: Índice de Cidades Empreendedoras ENAP, 2023[7]._
 
 Aproximadamente 5 mil movimentos de aeronaves anuais. UAM como gerador de demanda (elavação de movimento) de aeronaves. Concessionária como stakeholder e possível parceira.
 
 **Portuário**
+
 5 portos distando a menos de 125Km:
 
 - Porto de Navegantes - distância: 88 km 
@@ -101,9 +103,9 @@ Aproximadamente 5 mil movimentos de aeronaves anuais. UAM como gerador de demand
 
 **Por bicicleta**
 
-![Joinville ENAP](imagens/bicicleta.png)
+![bicicleta](imagens/bicicleta.png)
 
-Figura 1: Índice de Cidades Empreendedoras ENAP, 2023[1].
+_Figura 11: Rede cicloviária de Joinville, SEPUR[2]._
 
 Extensa malha de ciclovias.
 
@@ -113,9 +115,9 @@ A ferrovia que passa pelo limite municipal de Joinville liga a região do porto 
 
 ##### 4.4 **Capacidade de Distribuição Elétrica**
 
-![Joinville ENAP](imagens/energia_eletrica.png)
+![eletrica](imagens/energia_eletrica.png)
 
-Figura 1: Índice de Cidades Empreendedoras ENAP, 2023[1].
+_Figura 12: Linhas de Transmissão Elétrica, Celesc[2]._
 
 - Distribuição estável, com baixo índice de interrupção;
 - Investimento para expansão da distribuição de matriz fotovoltaica.
@@ -126,15 +128,15 @@ Figura 1: Índice de Cidades Empreendedoras ENAP, 2023[1].
 
 Identificar possíveis aplicações UAM em Joinville, segundo a literatura disponível.
 
-![Joinville ENAP](imagens/modalidades.png)
+![uam](imagens/modalidades.png)
 
-Figura 1: Índice de Cidades Empreendedoras ENAP, 2023[1].
+_Figura 13: Modalidades de serviços de transporte aéreo, UAM[8]._
 
 
-![Joinville ENAP](imagens/parametros.png)
+![tecnicos](imagens/parametros.png)
 
-Figura 1: Índice de Cidades Empreendedoras ENAP, 2023[1].
+_Figura 14: Parâmetros técnicos, UAM[8]._
 
-![Joinville ENAP](imagens/demandas.png)
+![demanda](imagens/demandas.png)
 
-Figura 1: Índice de Cidades Empreendedoras ENAP, 2023[1].
+_Figura 15: Diferentes demandas do UAM, Oi Long[9]._
