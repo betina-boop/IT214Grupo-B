@@ -215,9 +215,8 @@ _Figura 21: Aplicação individual do método AHP._
 
 A figura abaixo resume a análise e a tomada de decisão até o momento:
 
-|                         APLICAÇÕES/ OPORTUNIDADES                         |                                                                                    AHP/API                                                                                   |                                                                                           DADOS LEVANTADOS                                                                                           | CLASSES VERTIPORTO* |
-|:-------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|
-| Airport Shuttle Air Taxi Air Taxi Intercidades Evacuação Médica Turístico |  Segurança	(0,321) Eficiência	(0,152) Infraestrutura Disponível	(0,133) Horas de Operação	(0,088) Acessibilidade	(0,086) Privacidade	(0,072) Impacto Ambiental	(0,070) Ruído	(0,067) | Aeródromos e helipontos Terrenos amplos com espaço de escape Distâncias de centros urbanos relevantes Rede elétrica Integração outros modais Entretenimento, shoppings, parques Legislação municipal | Vertiporto Vertihub |
+![dados](imagens/dados.png)
+
 
 O ideal seria aplicar a lógica em todas as aplicações/oportunidades UAM em Joinville,
 a fim de identificar quais seriam mais viáveis e poderiam compor um único
@@ -228,6 +227,9 @@ empreendimento.
 _Figura 22: Amplitude ideal da avaliação dos critérios de escolha (elaboração própria)_
 
 A figura abaixo resume a análise e a tomada de decisão até o momento:
+
+![decisao](imagens/tomadadecisao.png) 
+
 
 Exemplos dos dados relevantes para a escolha dos sítios:
 
@@ -246,6 +248,7 @@ _Figura 25: Integração com o modal rodoviário (malha viária)_
 
 ![altatensao](imagens/altatensao.png)
 
+_Figura 26: Distribuição de Rede de Alta tensão_
 
 ![centrosurbanos](imagens/distancia.png)
 
