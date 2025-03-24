@@ -1,6 +1,6 @@
-#### 1. **Cidade escolhida: Joinville-SC**
+## 1. Cidade escolhida: Joinville-SC
 
-#### 2. **Critérios de Escolha**
+## 2. Critérios de Escolha
 
 ![Joinville ENAP](imagens/joinville_enap.png)
 
@@ -10,7 +10,7 @@ _Figura 1: Índice de Cidades Empreendedoras ENAP, 2023[1]._
 - Porte do município;  
 ---
 
-#### 3. **Dados da Cidade**
+#### **Dados da Cidade**
 
 ![Referências](imagens/dados_cidade.png)
 
@@ -18,7 +18,7 @@ _Figura 2: Referências de Joinville, 2023[1] e 2024[2]._
 
 ---
 
-#### 4. **Destaques dos Dados**
+## 4. **Destaques dos Dados**
 
 ##### 4.1 **Cultura de Inovação**
 
