@@ -1,9 +1,23 @@
 site_name: Grupo B - UAM
 site_url: https://betina-boop.github.io/Grupo-B/
 
+theme: readthedocs
+name: mkdocs
+locale: pt
+highlightjs: true
+  
 
 nav:
   - Home: index.md
   - Integrantes: integrantes.md
   - A1 - 18/03/2025: atividade1.md
   - Referências: referencias.md
+
+
+
+
+  
+markdown_extensions:
+  toc:
+    permalink: true
+  admonition: {}
