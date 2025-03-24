@@ -1,9 +1,9 @@
 site_name: Grupo B - UAM
 site_url: https://betina-boop.github.io/Grupo-B/
 
-theme: readthedocs
-name: mkdocs
-locale: pt
+theme: 
+  name: readthedocs
+
 
 
 nav:
