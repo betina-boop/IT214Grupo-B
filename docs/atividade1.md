@@ -1,13 +1,6 @@
-# Table of Contents
-1. [Cidade escolhida: Joinville-SC](#introduction)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-
-
-
 ## 1. **Cidade escolhida: Joinville-SC** <a name="introduction"></a>
 
-## 2. **Critérios de Escolha**
+### 1.1 **Critérios de Escolha**
 
 ![Joinville ENAP](imagens/joinville_enap.png)
 
@@ -17,7 +10,7 @@ _Figura 1: Índice de Cidades Empreendedoras ENAP, 2023[1]._
 - Porte do município;  
 ---
 
-## 3. **Dados da Cidade**
+### 1.2 **Dados da Cidade**
 
 ![Referências](imagens/dados_cidade.png)
 
@@ -25,9 +18,9 @@ _Figura 2: Referências de Joinville, 2023[1] e 2024[2]._
 
 ---
 
-## 4. **Destaques dos Dados**
+## 2. **Destaques dos Dados**
 
-### 4.1 **Cultura de Inovação**
+### 2.1 **Cultura de Inovação**
 
 ![Cultura de Inovação](imagens/cultura_inovacao.png)
 
@@ -38,7 +31,7 @@ _Figura 3: Centros de Inovação, SCTI[3]._
 - Aceitação social.
 
 
-##### 4.2 **Aspectos Demográficos, Socioeconômicos e Culturais**
+### 2.2 **Aspectos Demográficos, Socioeconômicos e Culturais**
 
 Cidade estratégica localizada no norte de Santa Catarina, destacando-se como um importante polo industrial e econômico do estado. Conhecida como a *"Cidade das Flores"* devido à sua rica flora, Joinville é um dos principais centros industriais do Brasil, com forte presemça nos setores **metalúrgico, têxtil e de tecnologia**.
 
@@ -72,7 +65,7 @@ _Figura 5: Remuneração Média Mensal, RAIS[5]._
 _Figura 6: Salário Médio Mensal, IBGE[6]._
 
 
-##### 4.3 **Transporte Multimodal**
+### 2.3 **Transporte Multimodal**
 
 **Rodoviário**
 ![acessos](imagens/principais_acessos.png)
@@ -122,7 +115,7 @@ Extensa malha de ciclovias.
 
 A ferrovia que passa pelo limite municipal de Joinville liga a região do porto em São Francisco do Sul à cidade de Mafra. Nesta cidade há conexão ferroviária à malha nacional para Porto Alegre, São Paulo e todo Paraná. A carga transportada inclui farelo de soja, trigo, sucata, cerâmica e bentonita, soja, óleo degomado, sorgo, aveia, milho, fertilizantes, minério de ferro, bobina de aço, ferro gusa e refrigeradores. É necessário aprofundar informações para compreender as associações com o UAM.
 
-##### 4.4 **Capacidade de Distribuição Elétrica**
+### 2.4 **Capacidade de Distribuição Elétrica**
 
 ![eletrica](imagens/energia_eletrica.png)
 
@@ -133,7 +126,7 @@ _Figura 12: Linhas de Transmissão Elétrica, Celesc[2]._
 
 ---
 
-#### 5. **Alinhamento UAM**
+## 3. **Alinhamento UAM**
 
 Identificar possíveis aplicações UAM em Joinville, segundo a literatura disponível.
 
