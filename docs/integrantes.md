@@ -1,9 +1,9 @@
 ## Integrantes
 
 - **Betina Luísa Lenhard**
-> - **Formação:** Engenharia Aeroespacial
-> - **Nível:** Mestrado
-> - **Programa:** CTE-E
+> **Formação:** Engenharia Aeroespacial
+> **Nível:** Mestrado
+> **Programa:** CTE-E
 
 - **Rodrigo Mollo Furlan**
 > - **Formação:** Engenharia Civil
