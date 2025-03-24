@@ -209,7 +209,7 @@ _Figura 20: Critérios de Localização de Sítios Vertiportuários_
 
 Análises individuais dos critérios: 
 
-![intracity](imagens/intracity.png) 
+![total](imagens/total.png) 
 
 _Figura 21: Aplicação individual do método AHP._
 

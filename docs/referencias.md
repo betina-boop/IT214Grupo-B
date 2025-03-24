@@ -1,3 +1,5 @@
+# **Referências**
+
 [1]**ESCOLA NACIONAL DE ADMINISTRAÇÃO PÚBLICA – ENAP.** Índice de Cidades Empreendedoras: Brasil 2023. Apoio: Endeavor. Brasília: Enap, 2023. Disponível em: <https://ice.enap.gov.br/ranking>. Acesso em: 17 mar. 2025.
 
 [2] **JOINVILLE.** *Joinville cidade em dados 2024 – Ambiente construído.* Joinville: Prefeitura Municipal, 2024. Disponível em: <https://www.joinville.sc.gov.br/wp-content/uploads/2024/07/Joinville-Cidade-em-Dados-2024-–-Ambiente-Construido.pdf>. Acesso em: 17 mar. 2025.
