@@ -250,6 +250,6 @@ _Figura 25: Integração com o modal rodoviário (malha viária)_
 
 _Figura 26: Distribuição de Rede de Alta tensão_
 
-![centrosurbanos](imagens/distancia.png)
+![centrosurbanos](imagens/distancia12.jpg)
 
 _Figura 27: Distâncias de centros urbanos relevantes_
