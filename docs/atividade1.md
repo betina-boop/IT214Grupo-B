@@ -1,6 +1,6 @@
-## 1. **Cidade escolhida: Joinville-SC** <a name="introduction"></a>
+## 1. **Cidade escolhida: Joinville-SC**
 
-### 1.1 **Critérios de Escolha**
+## 2. **Critérios de Escolha**
 
 ![Joinville ENAP](imagens/joinville_enap.png)
 
@@ -10,7 +10,7 @@ _Figura 1: Índice de Cidades Empreendedoras ENAP, 2023[1]._
 - Porte do município;  
 ---
 
-### 1.2 **Dados da Cidade**
+## 3. **Dados da Cidade**
 
 ![Referências](imagens/dados_cidade.png)
 
@@ -18,9 +18,9 @@ _Figura 2: Referências de Joinville, 2023[1] e 2024[2]._
 
 ---
 
-## 2. **Destaques dos Dados**
+## 4. **Destaques dos Dados**
 
-### 2.1 **Cultura de Inovação**
+### 4.1 **Cultura de Inovação**
 
 ![Cultura de Inovação](imagens/cultura_inovacao.png)
 
@@ -31,7 +31,7 @@ _Figura 3: Centros de Inovação, SCTI[3]._
 - Aceitação social.
 
 
-### 2.2 **Aspectos Demográficos, Socioeconômicos e Culturais**
+### 4.2 **Aspectos Demográficos, Socioeconômicos e Culturais**
 
 Cidade estratégica localizada no norte de Santa Catarina, destacando-se como um importante polo industrial e econômico do estado. Conhecida como a *"Cidade das Flores"* devido à sua rica flora, Joinville é um dos principais centros industriais do Brasil, com forte presemça nos setores **metalúrgico, têxtil e de tecnologia**.
 
@@ -65,7 +65,7 @@ _Figura 5: Remuneração Média Mensal, RAIS[5]._
 _Figura 6: Salário Médio Mensal, IBGE[6]._
 
 
-### 2.3 **Transporte Multimodal**
+### 4.3 **Transporte Multimodal**
 
 **Rodoviário**
 ![acessos](imagens/principais_acessos.png)
@@ -115,7 +115,7 @@ Extensa malha de ciclovias.
 
 A ferrovia que passa pelo limite municipal de Joinville liga a região do porto em São Francisco do Sul à cidade de Mafra. Nesta cidade há conexão ferroviária à malha nacional para Porto Alegre, São Paulo e todo Paraná. A carga transportada inclui farelo de soja, trigo, sucata, cerâmica e bentonita, soja, óleo degomado, sorgo, aveia, milho, fertilizantes, minério de ferro, bobina de aço, ferro gusa e refrigeradores. É necessário aprofundar informações para compreender as associações com o UAM.
 
-### 2.4 **Capacidade de Distribuição Elétrica**
+### 4.4 **Capacidade de Distribuição Elétrica**
 
 ![eletrica](imagens/energia_eletrica.png)
 
@@ -126,7 +126,7 @@ _Figura 12: Linhas de Transmissão Elétrica, Celesc[2]._
 
 ---
 
-## 3. **Alinhamento UAM**
+## 5. **Alinhamento UAM**
 
 Identificar possíveis aplicações UAM em Joinville, segundo a literatura disponível.
 
@@ -142,3 +142,111 @@ _Figura 14: Parâmetros técnicos, UAM[8]._
 ![demanda](imagens/demandas.png)
 
 _Figura 15: Diferentes demandas do UAM, Oi Long[9]._
+
+
+### **5.1 Casos de uso e subdivisão de operações**
+
+Para a realidade de Joinville, em função da configuração espacial, os casos de uso podem
+ser aglutinados em 3 categorias, se subdividindo em 14 possíveis aplicações/oportunidades.
+
+![shuttle](imagens/airport.png)
+
+_Figura 16: Casos de uso para 30 km_
+
+![intracity](imagens/intracity.png)
+
+_Figura 17: Casos de uso para 50-70 km_
+
+![metroplex](imagens/metroplex.png)
+
+_Figura 18: Casos de uso para 100 km_
+
+### **5.2 Modelo lógico de tomada de decisão**
+
+Premissa “Possível, Viável, Desejável” da inovação, adaptada para o problema: criar
+infraestrutura UAM.
+
+**Possível:** é falar de viabilidade técnica do projeto em curto prazo, ou seja,
+considerarmos se é tecnologicamente possível realizar o que está sendo proposto,
+analisando neste ponto se será possível atender os objetivos de desempenho
+esperados pela empresa.
+
+**Viável:** se refere ao retorno esperado de uma solução. De nada adianta ter uma ideia
+revolucionária se ela não é viável financeiramente. Esta análise de viabilidade permite
+a captação de investimentos, a definição do mercado, o estudo dos riscos e
+alternativas e reduz chances de erros e impactos negativos. Esse processo otimiza o
+uso dos recursos, melhora resultados e maximiza o retorno, proporcionando
+segurança e estabilidade.
+
+**Desejável:** o foco são as pessoas, já que elas serão beneficiadas pela inovação
+desenvolvida e aqui vemos que inovação não é apenas sinônimo de tecnologia de
+ponta, mas resulta do valor que o cliente percebe. Para isso, a pesquisa de mercado,
+o mapa de empatia e as entrevistas e testes com clientes são fundamentais tornando
+possível se colocar no lugar do cliente e realmente entender suas necessidades reais.
+
+![inovacao](imagens/inovacao.png)
+
+_Figura 19: 3 Círculos da Inovação_
+
+```
+A adaptação se dá no ponto de que normalmente na inovação é normal que a
+avaliação do “desejo” acontece antes das demais, pois o desenvolvimento de uma
+solução está baseado na dor do usuário. Conceito “cabelo pegando fogo”.
+```
+
+### **5.3 Análise em primeira instância: possibilidade técnica e escolha de sítios**
+
+Após o consenso do grupo sobre as aplicações/oportunidades UAM mais amoldadas
+à realidade de Joinville (Airport Shuttle; Air Taxi; Air Taxi Intercidades; Evacuação
+Médica; Turístico), com a finalidade de filtrar os dados mais relevantes para a análise
+dentro dos critérios estabelecidos, foi aplicado o método Analytic Hierarchy Process -
+AHP para realizar a priorização dos critérios.
+
+![localizacao](imagens/localizacao.png)
+
+_Figura 20: Critérios de Localização de Sítios Vertiportuários_
+
+
+Análises individuais dos critérios: 
+
+![intracity](imagens/intracity.png) \\\\\\\\\\\\\\\\\
+
+_Figura 21: Aplicação individual do método AHP._
+
+A figura abaixo resume a análise e a tomada de decisão até o momento:
+
+|                         APLICAÇÕES/ OPORTUNIDADES                         |                                                                                    AHP/API                                                                                   |                                                                                           DADOS LEVANTADOS                                                                                           | CLASSES VERTIPORTO* |
+|:-------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|
+| Airport Shuttle Air Taxi Air Taxi Intercidades Evacuação Médica Turístico |  Segurança	(0,321) Eficiência	(0,152) Infraestrutura Disponível	(0,133) Horas de Operação	(0,088) Acessibilidade	(0,086) Privacidade	(0,072) Impacto Ambiental	(0,070) Ruído	(0,067) | Aeródromos e helipontos Terrenos amplos com espaço de escape Distâncias de centros urbanos relevantes Rede elétrica Integração outros modais Entretenimento, shoppings, parques Legislação municipal | Vertiporto Vertihub |
+
+O ideal seria aplicar a lógica em todas as aplicações/oportunidades UAM em Joinville,
+a fim de identificar quais seriam mais viáveis e poderiam compor um único
+empreendimento.
+
+![avaliacao](imagens/avaliacao.png) 
+
+_Figura 22: Amplitude ideal da avaliação dos critérios de escolha (elaboração própria)_
+
+A figura abaixo resume a análise e a tomada de decisão até o momento:
+
+Exemplos dos dados relevantes para a escolha dos sítios:
+
+
+![aerodromos](imagens/aerodromo.png)
+
+_Figura 23: Dados de aeródromos e helipontos_
+
+![rodoviario](imagens/rodoviario.png)
+
+_Figura 24: Integração com o modal rodoviário (terminais)_
+
+![malhaviaria](imagens/malhaviaria.png)
+
+_Figura 25: Integração com o modal rodoviário (malha viária)_
+
+![altatensao](imagens/altatensao.png)
+
+
+![centrosurbanos](imagens/distancia.png)
+
+_Figura 27: Distâncias de centros urbanos relevantes_
