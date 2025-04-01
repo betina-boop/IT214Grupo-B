@@ -143,6 +143,10 @@ _Figura 14: Parâmetros técnicos, UAM[8]._
 
 _Figura 15: Diferentes demandas do UAM, Oi Long[9]._
 
+![demanda](imagens/transito.png)
+
+_Figura 16: Tráfego de Joinville em horário de pico, Google._
+
 
 ### **5.1 Casos de uso e subdivisão de operações**
 
@@ -151,15 +155,15 @@ ser aglutinados em 3 categorias, se subdividindo em 14 possíveis aplicações/o
 
 ![shuttle](imagens/airport.png)
 
-_Figura 16: Casos de uso para 30 km_
+_Figura 17: Casos de uso para 30 km_
 
 ![intracity](imagens/intracity.png)
 
-_Figura 17: Casos de uso para 50-70 km_
+_Figura 18: Casos de uso para 50-70 km_
 
 ![metroplex](imagens/metroplex.png)
 
-_Figura 18: Casos de uso para 100 km_
+_Figura 19: Casos de uso para 100 km_
 
 ### **5.2 Modelo lógico de tomada de decisão**
 
@@ -186,7 +190,7 @@ possível se colocar no lugar do cliente e realmente entender suas necessidades 
 
 ![inovacao](imagens/inovacao.png)
 
-_Figura 19: 3 Círculos da Inovação_
+_Figura 20: 3 Círculos da Inovação_
 
 ```
 A adaptação se dá no ponto de que normalmente na inovação é normal que a
@@ -204,14 +208,14 @@ AHP para realizar a priorização dos critérios.
 
 ![localizacao](imagens/localizacao.png)
 
-_Figura 20: Critérios de Localização de Sítios Vertiportuários_
+_Figura 21: Critérios de Localização de Sítios Vertiportuários_
 
 
 Análises individuais dos critérios: 
 
 ![total](imagens/total.png) 
 
-_Figura 21: Aplicação individual do método AHP._
+_Figura 22: Aplicação individual do método AHP._
 
 A figura abaixo resume a análise e a tomada de decisão até o momento:
 
@@ -224,7 +228,7 @@ empreendimento.
 
 ![avaliacao](imagens/avaliacao.png) 
 
-_Figura 22: Amplitude ideal da avaliação dos critérios de escolha (elaboração própria)_
+_Figura 23: Amplitude ideal da avaliação dos critérios de escolha (elaboração própria)_
 
 A figura abaixo resume a análise e a tomada de decisão até o momento:
 
@@ -236,20 +240,34 @@ Exemplos dos dados relevantes para a escolha dos sítios:
 
 ![aerodromos](imagens/aerodromo.png)
 
-_Figura 23: Dados de aeródromos e helipontos_
+_Figura 24: Dados de aeródromos e helipontos_
 
 ![rodoviario](imagens/rodoviario.png)
 
-_Figura 24: Integração com o modal rodoviário (terminais)_
+_Figura 25: Integração com o modal rodoviário (terminais)_
 
 ![malhaviaria](imagens/malhaviaria.png)
 
-_Figura 25: Integração com o modal rodoviário (malha viária)_
+_Figura 26: Integração com o modal rodoviário (malha viária)_
 
 ![altatensao](imagens/altatensao.png)
 
-_Figura 26: Distribuição de Rede de Alta tensão_
+_Figura 27: Distribuição de Rede de Alta tensão_
 
 ![centrosurbanos](imagens/distancia12.jpg)
 
-_Figura 27: Distâncias de centros urbanos relevantes_
+_Figura 28: Distâncias de centros urbanos relevantes_
+
+Assim, os seguintes sítios foram escolhidos como possibilidade de aplicação de vertiportos.
+
+![sitioshopping](imagens/sitioshopping.jpeg)
+
+_Figura 29: Possível sítio_
+
+![sitioterminal](imagens/sitioterminal.jpeg)
+
+_Figura 30: Possível sítio_
+
+![sitioarena](imagens/sitioarena.jpeg)
+
+_Figura 31: Possível sítio_
