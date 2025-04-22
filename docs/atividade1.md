@@ -200,7 +200,7 @@ solução está baseado na dor do usuário. Conceito “cabelo pegando fogo”.
 
 ### **5.3 Análise em primeira instância: possibilidade técnica e escolha de sítios**
 
-Após o consenso do grupo sobre as aplicações/oportunidades UAM mais amoldadas
+Após o consenso do grupo sobre as aplicações/oportunidades UAM mais moldadas
 à realidade de Joinville (Airport Shuttle; Air Taxi; Air Taxi Intercidades; Evacuação
 Médica; Turístico), com a finalidade de filtrar os dados mais relevantes para a análise
 dentro dos critérios estabelecidos, foi aplicado o método Analytic Hierarchy Process -
@@ -237,7 +237,6 @@ A figura abaixo resume a análise e a tomada de decisão até o momento:
 
 Exemplos dos dados relevantes para a escolha dos sítios:
 
-
 ![aerodromos](imagens/aerodromo.png)
 
 _Figura 24: Dados de aeródromos e helipontos_
@@ -271,3 +270,15 @@ _Figura 30: Possível sítio_
 ![sitioarena](imagens/sitioarena.jpeg)
 
 _Figura 31: Possível sítio_
+
+Uma infraestrutura crítica para a efetividade de um vertiporto visando multíplas aplicações, atendendo diversos setores da cidade, é a disponibilidade de vagas para o estacionamento de diversos veículos, atendendo carros, motos e bicicletas. Como essa disponibilidade de vagas não foi encontrada em nenhum ponto da cidade, vislumbra-se a possibilidade da construção de um prédio garagem para receber o vertiporto por Parceria Público-Privada (Lei Municipal nº 9.048/2021), com vários parceiros. Nesse contexto, o sítio do estacionamento da Arena Joinville parece ser o mais apropriado, pois além de estar alinhado com a lógica do AHP, ainda favorece a diversidade de negócios a serem explorados, como:
+
+   - transporte aéreo por eVTOL nas aplicações Airport Shuttle, Air Taxi, Air Taxi Intercidades, Evacuação Médica e Turístico;
+
+   - ampliação da capacidade de estacionamento de veículos, inclusive para fins rotativos;
+
+   - centro gastronômico permanente, com marcas exclusivas;
+
+   - novos camarotes, com visão para a arena, para eventos esportivos diversos e shows, com serviço de buffet do centro gastronômico;
+
+   - instalação de parque de manutenção de eVTOL de pequeno porte.
