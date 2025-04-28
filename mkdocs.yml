@@ -1,5 +1,5 @@
 site_name: Grupo B - UAM
-site_url: https://betina-boop.github.io/Grupo-B/
+site_url: https://betina-boop.github.io/IT214Grupo-B/
 
 theme:
   name: null
@@ -8,6 +8,7 @@ nav:
   - Home: index.md
   - Integrantes: integrantes.md
   - Projeto de Vertiporto: atividade1.md
+  - Análise de Demanda: A3.md
   - Referências: referencias.md
 
 
