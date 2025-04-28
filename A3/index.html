@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="canonical" href="https://betina-boop.github.io/IT214Grupo-B/A3/">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    
+    <title>Análise de Demanda - Grupo B - UAM</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            
+              <a class="navbar-brand" href="..">Grupo B - UAM</a>
+            
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../integrantes/">Integrantes</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../atividade1/">Projeto de Vertiporto</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Análise de Demanda</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../referencias/">Referências</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../atividade1/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../referencias/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#relatorio-de-analise-da-demanda-de-aeronaves">Relatório de Análise da Demanda de Aeronaves</a></li>
+            <li class="second-level"><a href="#1-introducao">1. Introdução</a></li>
+                
+            <li class="second-level"><a href="#2-descricao-de-dados">2. Descrição de Dados</a></li>
+                
+            <li class="second-level"><a href="#3-descricao-estatistica-das-variaveis">3. Descrição estatística das variáveis</a></li>
+                
+                <li class="third-level"><a href="#grafico-de-dispersao">Gráfico de Dispersão</a></li>
+                <li class="third-level"><a href="#matriz-de-correlacao">Matriz de Correlação</a></li>
+                <li class="third-level"><a href="#tabela-de-correlacao">Tabela de Correlação</a></li>
+            <li class="second-level"><a href="#4-formulacao-dos-modelos-de-regressao">4. Formulação dos modelos de regressão</a></li>
+                
+                <li class="third-level"><a href="#41-distancia-media-de-voo-x-pib-per-capita">4.1. Distância Média de Voo x PIB per capita</a></li>
+                <li class="third-level"><a href="#42-distancia-media-de-voo-x-yield-rkm">4.2. Distância Média de Voo x Yield (R$/KM)</a></li>
+                <li class="third-level"><a href="#44-passageiros-por-ano-x-assentos-comerciais">4.4. Passageiros por Ano x Assentos Comerciais</a></li>
+            <li class="second-level"><a href="#5-estimativa-dos-coeficientes-utilizando-o-metodo-dos-minimos-quadrados-ordinarios-ols">5. Estimativa dos coeficientes utilizando o método dos Mínimos Quadrados Ordinários (OLS)</a></li>
+                
+                <li class="third-level"><a href="#51-distancia-media-de-voo-x-pib-per-capita">5.1. Distância Média de Voo x PIB per capita</a></li>
+                <li class="third-level"><a href="#52-distancia-media-de-voo-x-yield-rkm">5.2. Distância Média de Voo x Yield (R$/KM)</a></li>
+                <li class="third-level"><a href="#53-passageiros-por-ano-x-assentos-comerciais">5.3. Passageiros por Ano x Assentos Comerciais</a></li>
+                <li class="third-level"><a href="#55-avaliar-a-significancia-estatistica-dos-coeficientes">5.5. Avaliar a significância estatística dos coeficientes</a></li>
+            <li class="second-level"><a href="#6-verificacao-das-hipoteses-classicas-da-regressao">6. Verificação das hipóteses clássicas da regressão</a></li>
+                
+                <li class="third-level"><a href="#61-distancia-media-de-voo-x-pib-per-capita">6.1. Distância Média de Voo x PIB per capita</a></li>
+                <li class="third-level"><a href="#62-distancia-media-de-voo-x-yield-rkm">6.2. Distância Média de Voo x Yield (R$/KM)</a></li>
+                <li class="third-level"><a href="#63-passageiros-por-ano-x-assentos-comerciais">6.3. Passageiros por Ano x Assentos Comerciais</a></li>
+        <li class="first-level "><a href="#selecao-do-modelo-mais-adequado">Seleção do modelo mais adequado</a></li>
+            <li class="second-level"><a href="#distancia-media-de-voo-x-pib-per-capita">Distância Média de Voo x PIB per capita</a></li>
+                
+            <li class="second-level"><a href="#distancia-media-de-voo-x-yield-rkm">Distância Média de Voo x Yield (R$/KM)</a></li>
+                
+            <li class="second-level"><a href="#distancia-media-de-voo-x-assentos-comerciais">Distância Média de Voo x Assentos Comerciais</a></li>
+                
+        <li class="first-level "><a href="#interpretacao-economica-dos-coeficientes-estimados">Interpretação econômica dos coeficientes estimados</a></li>
+            <li class="second-level"><a href="#explicar-o-significado-das-elasticidades-ou-semi-elasticidades">Explicar o significado das elasticidades ou semi-elasticidades</a></li>
+                
+            <li class="second-level"><a href="#relacionar-os-resultados-com-a-teoria-economica">Relacionar os resultados com a teoria econômica</a></li>
+                
+        <li class="first-level "><a href="#validacao-do-modelo">Validação do modelo</a></li>
+            <li class="second-level"><a href="#dividir-os-dados-em-amostra-de-treinamento-e-teste-opcional">Dividir os dados em amostra de treinamento e teste (opcional)</a></li>
+                
+            <li class="second-level"><a href="#avaliar-a-capacidade-preditiva-do-modelo">Avaliar a capacidade preditiva do modelo</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="relatorio-de-analise-da-demanda-de-aeronaves">Relatório de Análise da Demanda de Aeronaves<a class="headerlink" href="#relatorio-de-analise-da-demanda-de-aeronaves" title="Permanent link">&para;</a></h1>
+<h2 id="1-introducao">1. Introdução<a class="headerlink" href="#1-introducao" title="Permanent link">&para;</a></h2>
+<p>O objetivo deste relatório é analisar a relação entre indicadores econômicos e operacionais como a movimentação de passageiros na cidade de Joinville. Inicialmente, foi testada a influência do PIB per capita sobre a movimentação, seguida da exploração de outras variáveis explicativas disponíveis na base de dados municipal. A análise busca identificar quais fatores melhor explicam a variação na movimentação anual de passageiros, utilizando modelos de regressão.</p>
+<h2 id="2-descricao-de-dados">2. Descrição de Dados<a class="headerlink" href="#2-descricao-de-dados" title="Permanent link">&para;</a></h2>
+<p>Foram utilizadas três bases de dados principais:
+- PIB per capita;
+- Movimentação Anual de Passageiros;
+- Indicadores Diversos de Joinville.</p>
+<p>Dentre estes se destacam:
+- PIB per capita;
+- Movimentação Anual de Passageiros;
+- População;
+- Tarifa média;
+- Yield (R$/KM);
+- Assentos Comerciais;
+- Distância média voada.</p>
+<h2 id="3-descricao-estatistica-das-variaveis">3. Descrição estatística das variáveis<a class="headerlink" href="#3-descricao-estatistica-das-variaveis" title="Permanent link">&para;</a></h2>
+<h3 id="grafico-de-dispersao">Gráfico de Dispersão<a class="headerlink" href="#grafico-de-dispersao" title="Permanent link">&para;</a></h3>
+<p><img alt="Gráfico de Dispersão" src="../imagens/dispersao.png" /><br />
+<em>Fonte: Ferreira (2009)</em></p>
+<h3 id="matriz-de-correlacao">Matriz de Correlação<a class="headerlink" href="#matriz-de-correlacao" title="Permanent link">&para;</a></h3>
+<p><img alt="Matriz de Correlação" src="../imagens/matriz_correla%C3%A7%C3%A3o.png" /><br />
+<em>Fonte: Elaborado pelos autores.</em></p>
+<h3 id="tabela-de-correlacao">Tabela de Correlação<a class="headerlink" href="#tabela-de-correlacao" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Variável 1</th>
+<th>Variável 2</th>
+<th>Correlação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>População</td>
+<td>PIB per capita (R$)</td>
+<td>0.994879</td>
+</tr>
+<tr>
+<td>Distância média Voada</td>
+<td>Yield (R$/KM)</td>
+<td>-0.934800</td>
+</tr>
+<tr>
+<td>Assentos Comerc.</td>
+<td>Passag. Aeroporto</td>
+<td>0.909036</td>
+</tr>
+<tr>
+<td>Distância média Voada</td>
+<td>População</td>
+<td>0.893875</td>
+</tr>
+<tr>
+<td>Distância média Voada</td>
+<td>PIB per capita (R$)</td>
+<td>0.882521</td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-formulacao-dos-modelos-de-regressao">4. Formulação dos modelos de regressão<a class="headerlink" href="#4-formulacao-dos-modelos-de-regressao" title="Permanent link">&para;</a></h2>
+<h3 id="41-distancia-media-de-voo-x-pib-per-capita">4.1. Distância Média de Voo x PIB per capita<a class="headerlink" href="#41-distancia-media-de-voo-x-pib-per-capita" title="Permanent link">&para;</a></h3>
+<p><img alt="Modelos de regressão utilizando formas funcionais" src="../imagens/dist_media_pib_linear.png" /><br />
+<strong>Figura 1</strong>: Modelos de regressão utilizando forma funcional linear.<br />
+<em>Fonte: Elaborados pelos autores.</em></p>
+<p><img alt="Modelos de regressão utilizando formas funcionais" src="../imagens/dist_pib_log_linear.png" /><br />
+<strong>Figura 2</strong>: Modelos de regressão utilizando forma funcional log-linear.<br />
+<em>Fonte: Elaborados pelos autores.</em></p>
+<p><img alt="Modelos de regressão utilizando formas funcionais" src="../imagens/dist_pib_linear_log.png" /><br />
+<strong>Figura 3</strong>: Modelos de regressão utilizando forma funcional linear-log.<br />
+<em>Fonte: Elaborados pelos autores.</em></p>
+<p><img alt="Modelos de regressão utilizando formas funcionais" src="../imagens/dist_pib_log_log.png" /><br />
+<strong>Figura 4</strong>: Modelos de regressão utilizando forma funcional log-log.<br />
+<em>Fonte: Elaborados pelos autores.</em></p>
+<h3 id="42-distancia-media-de-voo-x-yield-rkm">4.2. Distância Média de Voo x Yield (R$/KM)<a class="headerlink" href="#42-distancia-media-de-voo-x-yield-rkm" title="Permanent link">&para;</a></h3>
+<p><img alt="Modelos de regressão utilizando formas funcionais" src="../imagens/dist_media_yield_linear.png" /><br />
+<strong>Figura 5</strong>: Modelos de regressão utilizando forma funcional linear.<br />
+<em>Fonte: Elaborados pelos autores.</em></p>
+<p><img alt="Modelos de regressão utilizando formas funcionais" src="../imagens/dist_yield_log_linear.png" /><br />
+<strong>Figura 6</strong>: Modelos de regressão utilizando forma funcional log-linear.<br />
+<em>Fonte: Elaborados pelos autores.</em></p>
+<p><img alt="Modelos de regressão utilizando formas funcionais" src="../imagens/dist_yield_linear_log.png" /><br />
+<strong>Figura 7</strong>: Modelos de regressão utilizando forma funcional linear-log.<br />
+<em>Fonte: Elaborados pelos autores.</em></p>
+<p><img alt="Modelos de regressão utilizando formas funcionais" src="../imagens/dist_yield_log_log.png" /><br />
+<strong>Figura 8</strong>: Modelos de regressão utilizando forma funcional log-log.<br />
+<em>Fonte: Elaborados pelos autores.</em></p>
+<h3 id="44-passageiros-por-ano-x-assentos-comerciais">4.4. Passageiros por Ano x Assentos Comerciais<a class="headerlink" href="#44-passageiros-por-ano-x-assentos-comerciais" title="Permanent link">&para;</a></h3>
+<p><img alt="Modelos de regressão utilizando formas funcionais" src="../imagens/assentos_passag_linear.png" /><br />
+<strong>Figura 9</strong>: Modelos de regressão utilizando forma funcional linear.<br />
+<em>Fonte: Elaborados pelos autores.</em></p>
+<p><img alt="Modelos de regressão utilizando formas funcionais" src="../imagens/assentos_passag_log_linear.png" /><br />
+<strong>Figura 10</strong>: Modelos de regressão utilizando forma funcional log-linear.<br />
+<em>Fonte: Elaborados pelos autores.</em></p>
+<p><img alt="Modelos de regressão utilizando formas funcionais" src="../imagens/assentos_passag_linear_log.png" /><br />
+<strong>Figura 11</strong>: Modelos de regressão utilizando forma funcional linear-log.<br />
+<em>Fonte: Elaborados pelos autores.</em></p>
+<p><img alt="Modelos de regressão utilizando formas funcionais" src="../imagens/assentos_passag_log_log.png" /><br />
+<strong>Figura 12</strong>: Modelos de regressão utilizando forma funcional log-log.<br />
+<em>Fonte: Elaborados pelos autores.</em></p>
+<h2 id="5-estimativa-dos-coeficientes-utilizando-o-metodo-dos-minimos-quadrados-ordinarios-ols">5. Estimativa dos coeficientes utilizando o método dos Mínimos Quadrados Ordinários (OLS)<a class="headerlink" href="#5-estimativa-dos-coeficientes-utilizando-o-metodo-dos-minimos-quadrados-ordinarios-ols" title="Permanent link">&para;</a></h2>
+<h3 id="51-distancia-media-de-voo-x-pib-per-capita">5.1. Distância Média de Voo x PIB per capita<a class="headerlink" href="#51-distancia-media-de-voo-x-pib-per-capita" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Linear Regression</strong>: β₀ = 312.2876, β₁ = 0.0163  </li>
+<li><strong>Log-linear Regression</strong>: β₀ = 5.8641, β₁ = 2.2719e-05  </li>
+<li><strong>Linear-log Regression</strong>: β₀ = -4519.3838, β₁ = 521.8931  </li>
+<li><strong>Log-log Regression</strong>: β₀ = -1.0312, β₁ = 0.7427  </li>
+</ul>
+<h3 id="52-distancia-media-de-voo-x-yield-rkm">5.2. Distância Média de Voo x Yield (R$/KM)<a class="headerlink" href="#52-distancia-media-de-voo-x-yield-rkm" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Linear Regression</strong>: β₀ = 1530.3733, β₁ = -609.2280  </li>
+<li><strong>Log-linear Regression</strong>: β₀ = 7.5858, β₁ = -0.8751  </li>
+<li><strong>Linear-log Regression</strong>: β₀ = 826.8078, β₁ = -689.5150  </li>
+<li><strong>Log-log Regression</strong>: β₀ = 6.5772, β₁ = -0.9771  </li>
+</ul>
+<h3 id="53-passageiros-por-ano-x-assentos-comerciais">5.3. Passageiros por Ano x Assentos Comerciais<a class="headerlink" href="#53-passageiros-por-ano-x-assentos-comerciais" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Linear Regression</strong>: β₀ = 91712.1641, β₁ = 2.3998  </li>
+<li><strong>Log-linear Regression</strong>: β₀ = 11.8237, β₁ = 7.8127e-06  </li>
+<li><strong>Linear-log Regression</strong>: β₀ = -2430181.2976, β₁ = 242803.4252  </li>
+<li><strong>Log-log Regression</strong>: β₀ = 3.3467, β₁ = 0.8138  </li>
+</ul>
+<h3 id="55-avaliar-a-significancia-estatistica-dos-coeficientes">5.5. Avaliar a significância estatística dos coeficientes<a class="headerlink" href="#55-avaliar-a-significancia-estatistica-dos-coeficientes" title="Permanent link">&para;</a></h3>
+<h2 id="6-verificacao-das-hipoteses-classicas-da-regressao">6. Verificação das hipóteses clássicas da regressão<a class="headerlink" href="#6-verificacao-das-hipoteses-classicas-da-regressao" title="Permanent link">&para;</a></h2>
+<h3 id="61-distancia-media-de-voo-x-pib-per-capita">6.1. Distância Média de Voo x PIB per capita<a class="headerlink" href="#61-distancia-media-de-voo-x-pib-per-capita" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Teste RESET de Ramsey</strong>: estatística = 7.3185, p-valor = 0.0258, df_denom = 2  </li>
+<li><strong>Teste de White</strong>: 'LM Statistic': 0.1145, 'LM-Test p-valor': 0.9444, 'F-Statistic': 0.0480, 'F-Test p-valor': 0.9533  </li>
+<li><strong>Estatística Durbin-Watson</strong>: 0.9519  </li>
+<li><strong>VIF</strong>: [8.4051, 1.0]  </li>
+</ul>
+<h3 id="62-distancia-media-de-voo-x-yield-rkm">6.2. Distância Média de Voo x Yield (R$/KM)<a class="headerlink" href="#62-distancia-media-de-voo-x-yield-rkm" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Teste RESET de Ramsey</strong>: estatística = 17.3813, p-valor = 0.0002, df_denom = 2  </li>
+<li><strong>Teste de White</strong>: 'LM Statistic': 6.9790, 'LM-Test p-valor': 0.0305, 'F-Statistic': 4.4139, 'F-Test p-valor': 0.0266 </li>
+<li><strong>Estatística Durbin-Watson</strong>: 2.5872  </li>
+<li><strong>VIF</strong>: [4.1327, 1.0]  </li>
+</ul>
+<h3 id="63-passageiros-por-ano-x-assentos-comerciais">6.3. Passageiros por Ano x Assentos Comerciais<a class="headerlink" href="#63-passageiros-por-ano-x-assentos-comerciais" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Teste RESET de Ramsey</strong>: estatística = 24.4410, p-valor = 4.9283e-06, df_denom = 2  </li>
+<li><strong>Teste de White</strong>: 'LM Statistic': 1.3382, 'LM-Test p-valor': 0.5122, 'F-Statistic': 0.6153, 'F-Test p-valor': 0.5509</li>
+<li><strong>Estatística Durbin-Watson</strong>: 1.2891  </li>
+<li><strong>VIF</strong>: [5.0897, 1.0]  </li>
+</ul>
+<h1 id="selecao-do-modelo-mais-adequado">Seleção do modelo mais adequado<a class="headerlink" href="#selecao-do-modelo-mais-adequado" title="Permanent link">&para;</a></h1>
+<h2 id="distancia-media-de-voo-x-pib-per-capita">Distância Média de Voo x PIB per capita<a class="headerlink" href="#distancia-media-de-voo-x-pib-per-capita" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Modelo</strong>: Linear  </li>
+<li>AIC: 240.7139734128535  </li>
+<li>BIC: 242.49471692864583  </li>
+<li>R-squared: 0.778842704857219  </li>
+<li>Adjusted R-squared: 0.7650203739107951  </li>
+<li>F-test p-value: 1.2541712620839091e-06  </li>
+</ul>
+<hr />
+<ul>
+<li><strong>Modelo</strong>: Log-linear  </li>
+<li>AIC: 10.174835224971496  </li>
+<li>BIC: 11.955578740763825  </li>
+<li>R-squared: 0.7123615029231332  </li>
+<li>Adjusted R-squared: 0.694384096855829  </li>
+<li>F-test p-value: 1.06714862909993e-05  </li>
+</ul>
+<hr />
+<ul>
+<li><strong>Modelo</strong>: Linear-log  </li>
+<li>AIC: 235.81013823190182  </li>
+<li>BIC: 237.59088174769414  </li>
+<li>R-squared: 0.8315836978488752  </li>
+<li>Adjusted R-squared: 0.8210576789644299  </li>
+<li>F-test p-value: 1.378631268270841e-07  </li>
+</ul>
+<hr />
+<ul>
+<li><strong>Modelo</strong>: Log-log  </li>
+<li>AIC: 4.259949372544035  </li>
+<li>BIC: 6.040692888336364  </li>
+<li>R-squared: 0.7929211365361468  </li>
+<li>Adjusted R-squared: 0.779978707569656  </li>
+<li>F-test p-value: 7.35290757460248e-07  </li>
+</ul>
+<hr />
+<p><strong>Melhor modelo baseado em AIC</strong>: Log-log<br />
+<strong>Melhor modelo baseado em BIC</strong>: Log-log<br />
+<strong>Melhor modelo baseado em R-squared</strong>: Linear-log<br />
+<strong>Melhor modelo baseado em Adjusted R-squared</strong>: Linear-log</p>
+<hr />
+<h2 id="distancia-media-de-voo-x-yield-rkm">Distância Média de Voo x Yield (R$/KM)<a class="headerlink" href="#distancia-media-de-voo-x-yield-rkm" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Modelo</strong>: Linear  </li>
+<li>AIC: 280.2605742843522  </li>
+<li>BIC: 282.4426591910688  </li>
+<li>R-squared: 0.8738519203396552  </li>
+<li>Adjusted R-squared: 0.867544516356638  </li>
+<li>F-test p-value: 1.9110735388559346e-10  </li>
+</ul>
+<hr />
+<ul>
+<li><strong>Modelo</strong>: Log-linear  </li>
+<li>AIC: -9.801459335730357  </li>
+<li>BIC: -7.619374429013725  </li>
+<li>R-squared: 0.8837925954207556  </li>
+<li>Adjusted R-squared: 0.8779822251917934  </li>
+<li>F-test p-value: 8.367580677914155e-11  </li>
+</ul>
+<hr />
+<ul>
+<li><strong>Modelo</strong>: Linear-log  </li>
+<li>AIC: 275.5449031481787  </li>
+<li>BIC: 277.72698805489534  </li>
+<li>R-squared: 0.8981900577083833  </li>
+<li>Adjusted R-squared: 0.8930995605938025  </li>
+<li>F-test p-value: 2.2131162671286824e-11  </li>
+</ul>
+<hr />
+<ul>
+<li><strong>Modelo</strong>: Log-log  </li>
+<li>AIC: -9.872584479372435  </li>
+<li>BIC: -7.690499572655803  </li>
+<li>R-squared: 0.8841676827882137  </li>
+<li>Adjusted R-squared: 0.8783760669276244  </li>
+<li>F-test p-value: 8.099839771586406e-11  </li>
+</ul>
+<hr />
+<p><strong>Melhor modelo baseado em AIC</strong>: Log-log<br />
+<strong>Melhor modelo baseado em BIC</strong>: Log-log<br />
+<strong>Melhor modelo baseado em R-squared</strong>: Linear-log<br />
+<strong>Melhor modelo baseado em Adjusted R-squared</strong>: Linear-log</p>
+<hr />
+<h2 id="distancia-media-de-voo-x-assentos-comerciais">Distância Média de Voo x Assentos Comerciais<a class="headerlink" href="#distancia-media-de-voo-x-assentos-comerciais" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Modelo</strong>: Linear  </li>
+<li>AIC: 549.2361704430607  </li>
+<li>BIC: 551.4182553497774  </li>
+<li>R-squared: 0.8263456680246661  </li>
+<li>Adjusted R-squared: 0.8176629514258994  </li>
+<li>F-test p-value: 4.788631025703021e-09  </li>
+</ul>
+<hr />
+<ul>
+<li><strong>Modelo</strong>: Log-linear  </li>
+<li>AIC: 6.145537615775552  </li>
+<li>BIC: 8.327622522492184  </li>
+<li>R-squared: 0.7262275397370973  </li>
+<li>Adjusted R-squared: 0.7125389167239522  </li>
+<li>F-test p-value: 4.81045935133018e-07  </li>
+</ul>
+<hr />
+<ul>
+<li><strong>Modelo</strong>: Linear-log  </li>
+<li>AIC: 542.3754369239838  </li>
+<li>BIC: 544.5575218307005  </li>
+<li>R-squared: 0.8728693621983309  </li>
+<li>Adjusted R-squared: 0.8665128303082474  </li>
+<li>F-test p-value: 2.066297326687235e-10  </li>
+</ul>
+<hr />
+<ul>
+<li><strong>Modelo</strong>: Log-log  </li>
+<li>AIC: -2.2479487719617737  </li>
+<li>BIC: -0.06586386524514154  </li>
+<li>R-squared: 0.8130623355951515  </li>
+<li>Adjusted R-squared: 0.803715452374909  </li>
+<li>F-test p-value: 1.0080185169593796e-08  </li>
+</ul>
+<hr />
+<p><strong>Melhor modelo baseado em AIC</strong>: Log-log<br />
+<strong>Melhor modelo baseado em BIC</strong>: Log-log<br />
+<strong>Melhor modelo baseado em R-squared</strong>: Linear-log<br />
+<strong>Melhor modelo baseado em Adjusted R-squared</strong>: Linear-log</p>
+<hr />
+<h1 id="interpretacao-economica-dos-coeficientes-estimados">Interpretação econômica dos coeficientes estimados<a class="headerlink" href="#interpretacao-economica-dos-coeficientes-estimados" title="Permanent link">&para;</a></h1>
+<h2 id="explicar-o-significado-das-elasticidades-ou-semi-elasticidades">Explicar o significado das elasticidades ou semi-elasticidades<a class="headerlink" href="#explicar-o-significado-das-elasticidades-ou-semi-elasticidades" title="Permanent link">&para;</a></h2>
+<h2 id="relacionar-os-resultados-com-a-teoria-economica">Relacionar os resultados com a teoria econômica<a class="headerlink" href="#relacionar-os-resultados-com-a-teoria-economica" title="Permanent link">&para;</a></h2>
+<hr />
+<h1 id="validacao-do-modelo">Validação do modelo<a class="headerlink" href="#validacao-do-modelo" title="Permanent link">&para;</a></h1>
+<h2 id="dividir-os-dados-em-amostra-de-treinamento-e-teste-opcional">Dividir os dados em amostra de treinamento e teste (opcional)<a class="headerlink" href="#dividir-os-dados-em-amostra-de-treinamento-e-teste-opcional" title="Permanent link">&para;</a></h2>
+<h2 id="avaliar-a-capacidade-preditiva-do-modelo">Avaliar a capacidade preditiva do modelo<a class="headerlink" href="#avaliar-a-capacidade-preditiva-do-modelo" title="Permanent link">&para;</a></h2></div>
+        
+        
+    </div>
+
+    
+      <footer class="col-md-12 text-center">
+          
+          
+            <hr>
+            <p>
+            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+            </p>
+          
+
+          
+          
+      </footer>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = ".."</script>
+    
+    <script src="../js/base.js"></script>
+    <script src="../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
