@@ -114,7 +114,7 @@ Localizado ao norte de Joinville, próximo ao Garten Shopping e à Universidade 
 
 **Localização dos sítios escolhidos**
 
-![image4.png](imagens/image4.png)
+![image4.png](imagens/imagem4.png)
 
 Fonte: Adaptado de Google Earth
 
