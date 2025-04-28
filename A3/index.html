@@ -146,28 +146,17 @@
                 <li class="third-level"><a href="#51-distancia-media-de-voo-x-pib-per-capita">5.1. Distância Média de Voo x PIB per capita</a></li>
                 <li class="third-level"><a href="#52-distancia-media-de-voo-x-yield-rkm">5.2. Distância Média de Voo x Yield (R$/KM)</a></li>
                 <li class="third-level"><a href="#53-passageiros-por-ano-x-assentos-comerciais">5.3. Passageiros por Ano x Assentos Comerciais</a></li>
-                <li class="third-level"><a href="#55-avaliar-a-significancia-estatistica-dos-coeficientes">5.5. Avaliar a significância estatística dos coeficientes</a></li>
             <li class="second-level"><a href="#6-verificacao-das-hipoteses-classicas-da-regressao">6. Verificação das hipóteses clássicas da regressão</a></li>
                 
                 <li class="third-level"><a href="#61-distancia-media-de-voo-x-pib-per-capita">6.1. Distância Média de Voo x PIB per capita</a></li>
                 <li class="third-level"><a href="#62-distancia-media-de-voo-x-yield-rkm">6.2. Distância Média de Voo x Yield (R$/KM)</a></li>
                 <li class="third-level"><a href="#63-passageiros-por-ano-x-assentos-comerciais">6.3. Passageiros por Ano x Assentos Comerciais</a></li>
-        <li class="first-level "><a href="#selecao-do-modelo-mais-adequado">Seleção do modelo mais adequado</a></li>
-            <li class="second-level"><a href="#distancia-media-de-voo-x-pib-per-capita">Distância Média de Voo x PIB per capita</a></li>
+            <li class="second-level"><a href="#7-selecao-do-modelo-mais-adequado">7. Seleção do modelo mais adequado</a></li>
                 
-            <li class="second-level"><a href="#distancia-media-de-voo-x-yield-rkm">Distância Média de Voo x Yield (R$/KM)</a></li>
-                
-            <li class="second-level"><a href="#distancia-media-de-voo-x-assentos-comerciais">Distância Média de Voo x Assentos Comerciais</a></li>
-                
-        <li class="first-level "><a href="#interpretacao-economica-dos-coeficientes-estimados">Interpretação econômica dos coeficientes estimados</a></li>
-            <li class="second-level"><a href="#explicar-o-significado-das-elasticidades-ou-semi-elasticidades">Explicar o significado das elasticidades ou semi-elasticidades</a></li>
-                
-            <li class="second-level"><a href="#relacionar-os-resultados-com-a-teoria-economica">Relacionar os resultados com a teoria econômica</a></li>
-                
-        <li class="first-level "><a href="#validacao-do-modelo">Validação do modelo</a></li>
-            <li class="second-level"><a href="#dividir-os-dados-em-amostra-de-treinamento-e-teste-opcional">Dividir os dados em amostra de treinamento e teste (opcional)</a></li>
-                
-            <li class="second-level"><a href="#avaliar-a-capacidade-preditiva-do-modelo">Avaliar a capacidade preditiva do modelo</a></li>
+                <li class="third-level"><a href="#distancia-media-de-voo-x-pib-per-capita">Distância Média de Voo x PIB per capita</a></li>
+                <li class="third-level"><a href="#distancia-media-de-voo-x-yield-rkm">Distância Média de Voo x Yield (R$/KM)</a></li>
+                <li class="third-level"><a href="#passageiros-por-ano-x-assentos-comerciais">Passageiros por Ano x Assentos Comerciais</a></li>
+            <li class="second-level"><a href="#8-passageiros-por-ano-x-assentos-comerciais">8. Passageiros por Ano x Assentos Comerciais</a></li>
                 
     </ul>
 </div></div>
@@ -177,18 +166,22 @@
 <h2 id="1-introducao">1. Introdução<a class="headerlink" href="#1-introducao" title="Permanent link">&para;</a></h2>
 <p>O objetivo deste relatório é analisar a relação entre indicadores econômicos e operacionais como a movimentação de passageiros na cidade de Joinville. Inicialmente, foi testada a influência do PIB per capita sobre a movimentação, seguida da exploração de outras variáveis explicativas disponíveis na base de dados municipal. A análise busca identificar quais fatores melhor explicam a variação na movimentação anual de passageiros, utilizando modelos de regressão.</p>
 <h2 id="2-descricao-de-dados">2. Descrição de Dados<a class="headerlink" href="#2-descricao-de-dados" title="Permanent link">&para;</a></h2>
-<p>Foram utilizadas três bases de dados principais:
-- PIB per capita;
-- Movimentação Anual de Passageiros;
-- Indicadores Diversos de Joinville.</p>
-<p>Dentre estes se destacam:
-- PIB per capita;
-- Movimentação Anual de Passageiros;
-- População;
-- Tarifa média;
-- Yield (R$/KM);
-- Assentos Comerciais;
-- Distância média voada.</p>
+<p>Foram utilizadas três bases de dados principais:</p>
+<ul>
+<li>PIB per capita;</li>
+<li>Movimentação Anual de Passageiros;</li>
+<li>Indicadores Diversos de Joinville.</li>
+</ul>
+<p>Dentre estes se destacam:</p>
+<ul>
+<li>PIB per capita;</li>
+<li>Movimentação Anual de Passageiros;</li>
+<li>População;</li>
+<li>Tarifa média;</li>
+<li>Yield (R$/KM);</li>
+<li>Assentos Comerciais;</li>
+<li>Distância média voada.</li>
+</ul>
 <h2 id="3-descricao-estatistica-das-variaveis">3. Descrição estatística das variáveis<a class="headerlink" href="#3-descricao-estatistica-das-variaveis" title="Permanent link">&para;</a></h2>
 <h3 id="grafico-de-dispersao">Gráfico de Dispersão<a class="headerlink" href="#grafico-de-dispersao" title="Permanent link">&para;</a></h3>
 <p><img alt="Gráfico de Dispersão" src="../imagens/dispersao.png" /><br />
@@ -295,7 +288,6 @@
 <li><strong>Linear-log Regression</strong>: β₀ = -2430181.2976, β₁ = 242803.4252  </li>
 <li><strong>Log-log Regression</strong>: β₀ = 3.3467, β₁ = 0.8138  </li>
 </ul>
-<h3 id="55-avaliar-a-significancia-estatistica-dos-coeficientes">5.5. Avaliar a significância estatística dos coeficientes<a class="headerlink" href="#55-avaliar-a-significancia-estatistica-dos-coeficientes" title="Permanent link">&para;</a></h3>
 <h2 id="6-verificacao-das-hipoteses-classicas-da-regressao">6. Verificação das hipóteses clássicas da regressão<a class="headerlink" href="#6-verificacao-das-hipoteses-classicas-da-regressao" title="Permanent link">&para;</a></h2>
 <h3 id="61-distancia-media-de-voo-x-pib-per-capita">6.1. Distância Média de Voo x PIB per capita<a class="headerlink" href="#61-distancia-media-de-voo-x-pib-per-capita" title="Permanent link">&para;</a></h3>
 <ul>
@@ -318,8 +310,8 @@
 <li><strong>Estatística Durbin-Watson</strong>: 1.2891  </li>
 <li><strong>VIF</strong>: [5.0897, 1.0]  </li>
 </ul>
-<h1 id="selecao-do-modelo-mais-adequado">Seleção do modelo mais adequado<a class="headerlink" href="#selecao-do-modelo-mais-adequado" title="Permanent link">&para;</a></h1>
-<h2 id="distancia-media-de-voo-x-pib-per-capita">Distância Média de Voo x PIB per capita<a class="headerlink" href="#distancia-media-de-voo-x-pib-per-capita" title="Permanent link">&para;</a></h2>
+<h2 id="7-selecao-do-modelo-mais-adequado">7. Seleção do modelo mais adequado<a class="headerlink" href="#7-selecao-do-modelo-mais-adequado" title="Permanent link">&para;</a></h2>
+<h3 id="distancia-media-de-voo-x-pib-per-capita">Distância Média de Voo x PIB per capita<a class="headerlink" href="#distancia-media-de-voo-x-pib-per-capita" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Modelo</strong>: Linear  </li>
 <li>AIC: 240.7139734128535  </li>
@@ -356,12 +348,10 @@
 <li>F-test p-value: 7.35290757460248e-07  </li>
 </ul>
 <hr />
-<p><strong>Melhor modelo baseado em AIC</strong>: Log-log<br />
-<strong>Melhor modelo baseado em BIC</strong>: Log-log<br />
-<strong>Melhor modelo baseado em R-squared</strong>: Linear-log<br />
-<strong>Melhor modelo baseado em Adjusted R-squared</strong>: Linear-log</p>
-<hr />
-<h2 id="distancia-media-de-voo-x-yield-rkm">Distância Média de Voo x Yield (R$/KM)<a class="headerlink" href="#distancia-media-de-voo-x-yield-rkm" title="Permanent link">&para;</a></h2>
+<p>A análise dos resultados mostra que o modelo linear apresenta um bom ajuste aos dados, com R-squared de 0.78 e Adjusted R-squared de 0.77, indicando que explica uma boa parte da variação na distância média de voo com base no PIB per capita. No entanto, os valores de AIC e BIC são relativamente altos, sugerindo que há modelos mais eficientes em termos de ajuste. Apesar disso, o modelo linear é estatisticamente significativo, com um F-test p-value muito baixo (1.25e-06).</p>
+<p>O modelo log-linear tem um AIC e BIC mais baixos do que o modelo linear, mas o R-squared e Adjusted R-squared são mais baixos, com valores de 0.71 e 0.69, respectivamente. Isso indica que, embora o modelo logarítmico em uma das variáveis possa oferecer um ajuste melhor em termos de AIC e BIC, ele não explica tão bem a variação na distância média de voo. O modelo também é estatisticamente significativo, como mostrado pelo F-test p-value de 1.07e-05.</p>
+<p>Os modelos Linear-log e Log-log se destacam em termos de ajuste. O modelo Linear-log apresenta o melhor desempenho em termos de R-squared (0.83) e Adjusted R-squared (0.82), indicando que ele explica mais de 80% da variação na distância média de voo, sendo o mais adequado para capturar a relação entre as variáveis. O modelo Log-log, por sua vez, é o mais eficiente em termos de AIC (4.26) e BIC (6.04), o que sugere que é o mais parcimonioso e bem ajustado aos dados. Ambos os modelos são altamente significativos, com F-test p-values extremamente baixos, evidenciando a robustez dos resultados.</p>
+<h3 id="distancia-media-de-voo-x-yield-rkm">Distância Média de Voo x Yield (R$/KM)<a class="headerlink" href="#distancia-media-de-voo-x-yield-rkm" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Modelo</strong>: Linear  </li>
 <li>AIC: 280.2605742843522  </li>
@@ -398,12 +388,10 @@
 <li>F-test p-value: 8.099839771586406e-11  </li>
 </ul>
 <hr />
-<p><strong>Melhor modelo baseado em AIC</strong>: Log-log<br />
-<strong>Melhor modelo baseado em BIC</strong>: Log-log<br />
-<strong>Melhor modelo baseado em R-squared</strong>: Linear-log<br />
-<strong>Melhor modelo baseado em Adjusted R-squared</strong>: Linear-log</p>
-<hr />
-<h2 id="distancia-media-de-voo-x-assentos-comerciais">Distância Média de Voo x Assentos Comerciais<a class="headerlink" href="#distancia-media-de-voo-x-assentos-comerciais" title="Permanent link">&para;</a></h2>
+<p>Ao analisar a relação entre Distância Média de Voo e Yield (R$/KM), o modelo Linear apresenta um bom ajuste com R-squared de 0.87 e Adjusted R-squared de 0.87, o que indica que ele consegue explicar de maneira eficiente a variação nos dados. No entanto, os AIC e BIC mais altos sugerem que há modelos mais eficientes. O F-test p-value muito baixo (1.91e-10) confirma a significância estatística do modelo, mas o desempenho pode ser melhorado.</p>
+<p>O modelo Log-linear, com um AIC e BIC mais baixos que o modelo Linear, também apresenta um R-squared de 0.88, o que sugere uma ligeira melhoria no ajuste. Porém, o Adjusted R-squared de 0.88 é um pouco mais alto, indicando que esse modelo é mais eficiente em termos de ajuste, embora ainda não seja o melhor em termos de explicação da variação. A significância estatística permanece elevada, com F-test p-value de 8.37e-11.</p>
+<p>Porém, o modelo Linear-log se destaca com R-squared de 0.90 e Adjusted R-squared de 0.89, explicando melhor a variação no yield. Esse modelo também apresenta os menores valores de AIC (275.54) e BIC (277.73), o que torna o Linear-log o modelo mais eficiente. O F-test p-value extremamente baixo (2.21e-11) reforça a significância estatística, fazendo deste modelo a melhor opção para explicar a relação entre a distância média de voo e o yield.</p>
+<h3 id="passageiros-por-ano-x-assentos-comerciais">Passageiros por Ano x Assentos Comerciais<a class="headerlink" href="#passageiros-por-ano-x-assentos-comerciais" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Modelo</strong>: Linear  </li>
 <li>AIC: 549.2361704430607  </li>
@@ -440,18 +428,12 @@
 <li>F-test p-value: 1.0080185169593796e-08  </li>
 </ul>
 <hr />
-<p><strong>Melhor modelo baseado em AIC</strong>: Log-log<br />
-<strong>Melhor modelo baseado em BIC</strong>: Log-log<br />
-<strong>Melhor modelo baseado em R-squared</strong>: Linear-log<br />
-<strong>Melhor modelo baseado em Adjusted R-squared</strong>: Linear-log</p>
-<hr />
-<h1 id="interpretacao-economica-dos-coeficientes-estimados">Interpretação econômica dos coeficientes estimados<a class="headerlink" href="#interpretacao-economica-dos-coeficientes-estimados" title="Permanent link">&para;</a></h1>
-<h2 id="explicar-o-significado-das-elasticidades-ou-semi-elasticidades">Explicar o significado das elasticidades ou semi-elasticidades<a class="headerlink" href="#explicar-o-significado-das-elasticidades-ou-semi-elasticidades" title="Permanent link">&para;</a></h2>
-<h2 id="relacionar-os-resultados-com-a-teoria-economica">Relacionar os resultados com a teoria econômica<a class="headerlink" href="#relacionar-os-resultados-com-a-teoria-economica" title="Permanent link">&para;</a></h2>
-<hr />
-<h1 id="validacao-do-modelo">Validação do modelo<a class="headerlink" href="#validacao-do-modelo" title="Permanent link">&para;</a></h1>
-<h2 id="dividir-os-dados-em-amostra-de-treinamento-e-teste-opcional">Dividir os dados em amostra de treinamento e teste (opcional)<a class="headerlink" href="#dividir-os-dados-em-amostra-de-treinamento-e-teste-opcional" title="Permanent link">&para;</a></h2>
-<h2 id="avaliar-a-capacidade-preditiva-do-modelo">Avaliar a capacidade preditiva do modelo<a class="headerlink" href="#avaliar-a-capacidade-preditiva-do-modelo" title="Permanent link">&para;</a></h2></div>
+<p>A relação entre Passageiros por Ano e Assentos Comerciais é bem explicada pelo modelo Linear, que apresenta R-squared de 0.83 e Adjusted R-squared de 0.82, o que demonstra um bom ajuste aos dados. O F-test p-value muito baixo (4.79e-09) também confirma a significância estatística do modelo, indicando que a oferta de assentos tem uma forte influência na movimentação de passageiros.</p>
+<p>No entanto, o modelo Log-linear mostra um R-squared de 0.73 e um Adjusted R-squared de 0.71, indicando um ajuste menos eficiente em comparação ao modelo linear. Embora o AIC e BIC sejam mais baixos, o modelo logarítmico na variável dependente parece não capturar tão bem a relação entre assentos comerciais e passageiros. O F-test p-value de 4.81e-07 ainda indica que o modelo é significativo, mas com um ajuste inferior.</p>
+<p>Por outro lado, o modelo Linear-log apresenta o melhor ajuste, com R-squared de 0.87 e Adjusted R-squared de 0.87, explicando muito bem a variação na quantidade de passageiros. Com AIC de 542.38 e BIC de 544.56, esse modelo se mostra o mais eficiente para descrever a relação entre assentos comerciais e a movimentação de passageiros. O F-test p-value de 2.07e-10 confirma a forte significância estatística, fazendo do Linear-log o modelo mais robusto para essa análise.</p>
+<h2 id="8-passageiros-por-ano-x-assentos-comerciais">8. Passageiros por Ano x Assentos Comerciais<a class="headerlink" href="#8-passageiros-por-ano-x-assentos-comerciais" title="Permanent link">&para;</a></h2>
+<p>Os resultados das análises indicam que o PIB per capita não é uma variável explicativa relevante para a movimentação de passageiros em Joinville, conforme os testes de regressão realizados. Embora o PIB per capita tenha sido incluído como uma variável explicativa em diversos modelos de regressão, como o modelo Linear, Log-linear, Linear-log e Log-log, sua contribuição para a explicação da variação no número de passageiros foi relativamente baixa, o que sugere que fatores econômicos agregados, como a renda média da população, não têm um impacto direto substancial sobre a demanda por transporte aéreo na cidade. Em termos econométricos, isso pode ser interpretado como a falta de uma relação causal direta entre o PIB per capita e a movimentação de passageiros, corroborando a ideia de que, em mercados locais ou regionais, a renda per capita não necessariamente reflete o padrão de demanda por voos.</p>
+<p>Por outro lado, a oferta de assentos comerciais emerge como o principal determinante da movimentação de passageiros. A forte correlação observada entre a disponibilidade de assentos e o número de passageiros sugere que, em mercados com oferta de transporte aéreo limitada, a movimentação de passageiros depende diretamente da capacidade de assentos disponíveis. O modelo Log-log, que foi identificado como o mais adequado com base nos critérios de AIC e BIC, oferece uma interpretação clara da relação proporcional entre oferta e demanda. Neste modelo, a elasticidade entre a oferta de assentos e a demanda por passageiros é constante, o que significa que uma variação percentual na oferta de assentos gera uma variação proporcional na demanda por passagens, permitindo uma análise mais intuitiva e prática da dinâmica de mercado. Esse modelo é particularmente útil para entender como mudanças na capacidade de oferta impactam diretamente a movimentação de passageiros, uma vez que se ajusta bem ao comportamento observável dos dados e fornece uma representação mais realista da interação entre essas variáveis no contexto local.</p></div>
         
         
     </div>
