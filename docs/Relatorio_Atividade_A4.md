@@ -236,17 +236,17 @@ O Modelo de Gravidade é utilizado para estimar o número de viagens entre os
 
 Onde:
 
-$$T_{ij}$$ – número de viagens entre o vertiporto i e a macrozona j
+T_{ij} – número de viagens entre o vertiporto i e a macrozona j
 
-$$P_{i}$$ – fator de produção do vertiporto i
+$P_i$ – fator de produção do vertiporto i
 
-$$A_j$$ – fator de atração da macrozona j
+A_j – fator de atração da macrozona j
 
-$$d_ij$$ – distância ou tempo de viagem entre i e j
+d_ij – distância ou tempo de viagem entre i e j
 
-$$n$$ – parâmetro de impedância a ser calibrado
+n – parâmetro de impedância a ser calibrado
 
-$$k$$ – constante de proporcionalidade
+k – constante de proporcionalidade
 
 Fator de produção dos possíveis sítios
 
@@ -254,7 +254,7 @@ Fator de produção dos possíveis sítios
 
 Fonte: Autores
 
-Para o fator de atração $$A_j$$, adota-se uma porcentagem, estimativa, das viagens com destino à respectiva macrozona. Esse valor é utilizado de forma aproximada, considerando que apenas uma fração muito pequena das viagens realizadas para cada macrozona ocorrerá por meio do modal aéreo, utilizando aeronaves eVTOL, inicialmente.
+Para o fator de atração Aj, adota-se uma porcentagem, estimativa, das viagens com destino à respectiva macrozona. Esse valor é utilizado de forma aproximada, considerando que apenas uma fração muito pequena das viagens realizadas para cada macrozona ocorrerá por meio do modal aéreo, utilizando aeronaves eVTOL, inicialmente.
 
 
 Fator de produção das macrozonas
@@ -263,7 +263,7 @@ Fator de produção das macrozonas
 
 Fonte: Autores
 
-O deslocamento $$d_{ij}$$ é obtido a partir de uma matriz com as distâncias, em km, entre cada sítio e macrozona.
+O deslocamento dij é obtido a partir de uma matriz com as distâncias, em km, entre cada sítio e macrozona.
 
 Matriz da distância entre possíveis sítios e macrozonas
 
@@ -283,7 +283,7 @@ Matriz de origem-destino entre possíveis sítios e macrozonas
 
 Fonte: Autores
 
-A matriz origem-destino revela tendências de fluxo compatíveis com os perfis de produção e atração estabelecidos. A Arena de Joinville, que apresenta o maior fator de produção (Pi=82), concentra os maiores volumes de viagens estimadas, destacando-se nas conexões com as macrozonas Sul e Centro Norte, justamente aquelas com os maiores fatores de atração.
+A matriz origem-destino revela tendências de fluxo compatíveis com os perfis de produção e atração estabelecidos. A Arena de Joinville, que apresenta o maior fator de produção (Pi=81), concentra os maiores volumes de viagens estimadas, destacando-se nas conexões com as macrozonas Sul e Centro Norte, justamente aquelas com os maiores fatores de atração.
 
 O sítio Universidade/Shopping também se sobressai, especialmente nas ligações com o Sul e o Centro Norte, refletindo seu relevante potencial comercial, sua localização estratégica e a baixa distância, favorecida pelo parâmetro de impedância negativo. Esse valor de n inverte o efeito tradicional da impedância, privilegiando deslocamentos ligeiramente mais longos, o que é coerente com a lógica de que viagens muito curtas tendem a ser mais bem atendidas por modos terrestres convencionais.
 
@@ -298,15 +298,15 @@ O Modelo de Huff é aplicado para estimar a probabilidade de um usuário, perten
 
 Para sua aplicação, são consideradas as seguintes variáveis:
 
-$$P_{ij}$$ – probabilidade de um usuário da zona i escolher o vertiporto/modo j
+P_{ij} – probabilidade de um usuário da zona i escolher o vertiporto/modo j
 
-$$A_j$$ – atratividade do vertiporto/modo j
+A_j – atratividade do vertiporto/modo j
 
-$$d_{ij}$$ – distância ou tempo de viagem entre i e j
+d_{ij} – distância ou tempo de viagem entre i e j
 
-$$n$$ – parâmetro de sensibilidade à distância
+n – parâmetro de sensibilidade à distância
 
-$$m$$ – número de alternativas disponíveis
+m – número de alternativas disponíveis
 
 Para a aplicação do modelo, foram utilizadas as mesmas macrozonas e sítios utilizados no Modelo de Gravidade.
 
