@@ -1,6 +1,6 @@
 # Localização Ótima de Vertiporto
 
-Na avaliação da escolha de sítio, utilizam-se critérios que abrangem diversos fatores, organizados por meio do método Processo Hierárquico Analítico (AHP), que permite hierarquizar critérios. Em seguida, aplica-se a Agregação Individual de Prioridades (AIP) para reunir as avaliações dos diferentes integrantes do grupo, resultando em uma decisão que reflete a vontade coletiva. Essa avaliação consolidada é então usada para selecionar o sítio que melhor atenda à proposta e/ou necessidade.
+A escolha do sítio é avaliada mediante critérios hierarquizados pelo método AHP, com a agregação das prioridades individuais (AIP) para decisão coletiva, resultando na seleção do local mais adequado.
 
 ## Seleção e justificativa dos critérios
 
@@ -124,7 +124,7 @@ Com o uso do AHP para avaliar os sítios em relação a cada critério, torna-se
 
 AIP dos sítios de acordo com os critérios e notas do grupo
 
-![image5.png](imagens/imagem5.png)
+![image5.png](imagens/imagem5.jpeg)
 
 Fonte: Autores
 
@@ -132,7 +132,7 @@ Considerando a prioridade entre os critérios e a avaliação dos sítios com ba
 
 Comparação entre a média da nota dos sítios, com escolha a partir do AIP do grupo
 
-![image6.png](imagens/imagem6.png)
+![image6.png](imagens/imagem6.jpeg)
 
 Fonte: Autores
 
@@ -250,7 +250,7 @@ k – constante de proporcionalidade
 
 Fator de produção dos possíveis sítios
 
-![image14.png](imagens/imagem14.png)
+![image14.png](imagens/imagem14.jpeg)
 
 Fonte: Autores
 
@@ -259,7 +259,7 @@ Para o fator de atração A<sub>j</sub>, adota-se uma porcentagem, estimativa, d
 
 Fator de produção das macrozonas
 
-![image15.png](imagens/imagem15.png)
+![image15.png](imagens/imagem15.jpeg)
 
 Fonte: Autores
 
@@ -279,7 +279,7 @@ A aplicação do modelo, com os parâmetros definidos, gera a matriz origem-dest
 
 Matriz de origem-destino entre possíveis sítios e macrozonas
 
-![image17.png](imagens/imagem17.png)
+![image17.png](imagens/imagem17.jpeg)
 
 Fonte: Autores
 
@@ -320,7 +320,7 @@ A aplicação do modelo gera a matriz de probabilidades P<sub>ij</sub>​, que e
 
 ## Matriz de probabilidades de escolha entre macrozonas e sítios vertiportuários
 
-![image19.png](imagens/imagem19.png)
+![image19.png](imagens/imagem19.jpeg)
 
 Fonte: Autores
 
@@ -338,4 +338,4 @@ Assim como no Modelo de Gravidade, o estudo com o Modelo de Huff apresenta limit
 
 Por fim, a análise integrada dos Modelos de Gravidade e de Huff revela resultados consistentes, mas com ênfases distintas: enquanto o Modelo de Gravidade projeta a quantidade de viagens entre origens e destinos, o Modelo de Huff foca na probabilidade relativa de escolha entre as alternativas disponíveis.
 
-Em conjunto, os dois modelos oferecem uma visão complementar: o Modelo de Gravidade projeta a demanda em termos de volume, enquanto o Modelo de Huff interpreta a escolha com base na atratividade e na acessibilidade relativas, ampliando a base para a tomada de decisões mais qualificadas no planejamento e operação de vertiportos urbanos.
+Em conjunto, os modelos oferecem uma análise completa — o de Gravidade quantifica a demanda, e o de Huff, a atratividade relativa —, otimizando o planejamento e operações de vertiportos.
