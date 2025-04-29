@@ -400,20 +400,20 @@
 <p>O Modelo de Gravidade é utilizado para estimar o número de viagens entre os vertiportos e as macrozonas, considerando as seguintes variáveis:</p>
 <p><img alt="image13.png" src="../imagens/imagem13.png" /></p>
 <p>Onde:</p>
-<p>$$T_{ij}$$ – número de viagens entre o vertiporto i e a macrozona j</p>
-<p>$$P_{i}$$ – fator de produção do vertiporto i</p>
-<p>$$A_j$$ – fator de atração da macrozona j</p>
-<p>$$d_ij$$ – distância ou tempo de viagem entre i e j</p>
-<p>$$n$$ – parâmetro de impedância a ser calibrado</p>
-<p>$$k$$ – constante de proporcionalidade</p>
+<p>T_{ij} – número de viagens entre o vertiporto i e a macrozona j</p>
+<p>$P_i$ – fator de produção do vertiporto i</p>
+<p>A_j – fator de atração da macrozona j</p>
+<p>d_ij – distância ou tempo de viagem entre i e j</p>
+<p>n – parâmetro de impedância a ser calibrado</p>
+<p>k – constante de proporcionalidade</p>
 <p>Fator de produção dos possíveis sítios</p>
 <p><img alt="image14.png" src="../imagens/imagem14.png" /></p>
 <p>Fonte: Autores</p>
-<p>Para o fator de atração $$A_j$$, adota-se uma porcentagem, estimativa, das viagens com destino à respectiva macrozona. Esse valor é utilizado de forma aproximada, considerando que apenas uma fração muito pequena das viagens realizadas para cada macrozona ocorrerá por meio do modal aéreo, utilizando aeronaves eVTOL, inicialmente.</p>
+<p>Para o fator de atração Aj, adota-se uma porcentagem, estimativa, das viagens com destino à respectiva macrozona. Esse valor é utilizado de forma aproximada, considerando que apenas uma fração muito pequena das viagens realizadas para cada macrozona ocorrerá por meio do modal aéreo, utilizando aeronaves eVTOL, inicialmente.</p>
 <p>Fator de produção das macrozonas</p>
 <p><img alt="image15.png" src="../imagens/imagem15.png" /></p>
 <p>Fonte: Autores</p>
-<p>O deslocamento $$d_{ij}$$ é obtido a partir de uma matriz com as distâncias, em km, entre cada sítio e macrozona.</p>
+<p>O deslocamento dij é obtido a partir de uma matriz com as distâncias, em km, entre cada sítio e macrozona.</p>
 <p>Matriz da distância entre possíveis sítios e macrozonas</p>
 <p><img alt="image16.png" src="../imagens/imagem16.png" /></p>
 <p>Fonte: Autores</p>
@@ -423,18 +423,18 @@
 <p>Matriz de origem-destino entre possíveis sítios e macrozonas</p>
 <p><img alt="image17.png" src="../imagens/imagem17.png" /></p>
 <p>Fonte: Autores</p>
-<p>A matriz origem-destino revela tendências de fluxo compatíveis com os perfis de produção e atração estabelecidos. A Arena de Joinville, que apresenta o maior fator de produção (Pi=82), concentra os maiores volumes de viagens estimadas, destacando-se nas conexões com as macrozonas Sul e Centro Norte, justamente aquelas com os maiores fatores de atração.</p>
+<p>A matriz origem-destino revela tendências de fluxo compatíveis com os perfis de produção e atração estabelecidos. A Arena de Joinville, que apresenta o maior fator de produção (Pi=81), concentra os maiores volumes de viagens estimadas, destacando-se nas conexões com as macrozonas Sul e Centro Norte, justamente aquelas com os maiores fatores de atração.</p>
 <p>O sítio Universidade/Shopping também se sobressai, especialmente nas ligações com o Sul e o Centro Norte, refletindo seu relevante potencial comercial, sua localização estratégica e a baixa distância, favorecida pelo parâmetro de impedância negativo. Esse valor de n inverte o efeito tradicional da impedância, privilegiando deslocamentos ligeiramente mais longos, o que é coerente com a lógica de que viagens muito curtas tendem a ser mais bem atendidas por modos terrestres convencionais.</p>
 <p>Por outro lado, o sítio Terminal Norte/Subestação apresenta volumes de viagens mais modestos, o que é consistente com seus menores fatores de produção.</p>
 <h2 id="modelo-de-huff">Modelo de Huff<a class="headerlink" href="#modelo-de-huff" title="Permanent link">&para;</a></h2>
 <p>O Modelo de Huff é aplicado para estimar a probabilidade de um usuário, pertencente a uma determinada macrozona, escolher um vertiporto específico. A escolha é baseada na atratividade da alternativa e na distância necessária para acessá-la. Esse modelo se mostra especialmente útil para analisar o comportamento de decisão dos usuários em cenários com múltiplas opções de transporte:</p>
 <p><img alt="image18.png" src="../imagens/imagem18.png" /></p>
 <p>Para sua aplicação, são consideradas as seguintes variáveis:</p>
-<p>$$P_{ij}$$ – probabilidade de um usuário da zona i escolher o vertiporto/modo j</p>
-<p>$$A_j$$ – atratividade do vertiporto/modo j</p>
-<p>$$d_{ij}$$ – distância ou tempo de viagem entre i e j</p>
-<p>$$n$$ – parâmetro de sensibilidade à distância</p>
-<p>$$m$$ – número de alternativas disponíveis</p>
+<p>P_{ij} – probabilidade de um usuário da zona i escolher o vertiporto/modo j</p>
+<p>A_j – atratividade do vertiporto/modo j</p>
+<p>d_{ij} – distância ou tempo de viagem entre i e j</p>
+<p>n – parâmetro de sensibilidade à distância</p>
+<p>m – número de alternativas disponíveis</p>
 <p>Para a aplicação do modelo, foram utilizadas as mesmas macrozonas e sítios utilizados no Modelo de Gravidade.</p>
 <p>A atratividade Aj​ de cada sítio foi atribuída com base na nota final dos oito critérios de avaliação, conforme determinado pelos métodos AHP e AIP no processo de escolha do sítio.</p>
 <p>O deslocamento dij também seguiu o mesmo parâmetro adotado anteriormente, considerando as distâncias aéreas entre macrozonas e vertiportos.</p>
