@@ -238,7 +238,7 @@ Onde:
 
 T_{ij} – número de viagens entre o vertiporto i e a macrozona j
 
-$P_i$ – fator de produção do vertiporto i
+P<sub>i</sub> – fator de produção do vertiporto i
 
 A_j – fator de atração da macrozona j
 
