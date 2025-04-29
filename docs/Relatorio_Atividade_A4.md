@@ -236,13 +236,13 @@ O Modelo de Gravidade é utilizado para estimar o número de viagens entre os
 
 Onde:
 
-T_{ij} – número de viagens entre o vertiporto i e a macrozona j
+T<sub>ij</sub>  – número de viagens entre o vertiporto i e a macrozona j
 
 P<sub>i</sub> – fator de produção do vertiporto i
 
-A_j – fator de atração da macrozona j
+A<sub>j</sub> – fator de atração da macrozona j
 
-d_ij – distância ou tempo de viagem entre i e j
+d<sub>ij</sub> – distância ou tempo de viagem entre i e j
 
 n – parâmetro de impedância a ser calibrado
 
@@ -254,7 +254,7 @@ Fator de produção dos possíveis sítios
 
 Fonte: Autores
 
-Para o fator de atração Aj, adota-se uma porcentagem, estimativa, das viagens com destino à respectiva macrozona. Esse valor é utilizado de forma aproximada, considerando que apenas uma fração muito pequena das viagens realizadas para cada macrozona ocorrerá por meio do modal aéreo, utilizando aeronaves eVTOL, inicialmente.
+Para o fator de atração A<sub>j</sub>, adota-se uma porcentagem, estimativa, das viagens com destino à respectiva macrozona. Esse valor é utilizado de forma aproximada, considerando que apenas uma fração muito pequena das viagens realizadas para cada macrozona ocorrerá por meio do modal aéreo, utilizando aeronaves eVTOL, inicialmente.
 
 
 Fator de produção das macrozonas
@@ -263,7 +263,7 @@ Fator de produção das macrozonas
 
 Fonte: Autores
 
-O deslocamento dij é obtido a partir de uma matriz com as distâncias, em km, entre cada sítio e macrozona.
+O deslocamento d<sub>ij</sub> é obtido a partir de uma matriz com as distâncias, em km, entre cada sítio e macrozona.
 
 Matriz da distância entre possíveis sítios e macrozonas
 
@@ -298,11 +298,11 @@ O Modelo de Huff é aplicado para estimar a probabilidade de um usuário, perten
 
 Para sua aplicação, são consideradas as seguintes variáveis:
 
-P_{ij} – probabilidade de um usuário da zona i escolher o vertiporto/modo j
+P<sub>ij</sub> – probabilidade de um usuário da zona i escolher o vertiporto/modo j
 
-A_j – atratividade do vertiporto/modo j
+A<sub>j</sub> – atratividade do vertiporto/modo j
 
-d_{ij} – distância ou tempo de viagem entre i e j
+d<sub>ij</sub> – distância ou tempo de viagem entre i e j
 
 n – parâmetro de sensibilidade à distância
 
