@@ -283,7 +283,7 @@ Matriz de origem-destino entre possíveis sítios e macrozonas
 
 Fonte: Autores
 
-A matriz origem-destino revela tendências de fluxo compatíveis com os perfis de produção e atração estabelecidos. A Arena de Joinville, que apresenta o maior fator de produção (Pi=81), concentra os maiores volumes de viagens estimadas, destacando-se nas conexões com as macrozonas Sul e Centro Norte, justamente aquelas com os maiores fatores de atração.
+A matriz origem-destino revela tendências de fluxo compatíveis com os perfis de produção e atração estabelecidos. A Arena de Joinville, que apresenta o maior fator de produção (P<sub>i</sub> = 81), concentra os maiores volumes de viagens estimadas, destacando-se nas conexões com as macrozonas Sul e Centro Norte, justamente aquelas com os maiores fatores de atração.
 
 O sítio Universidade/Shopping também se sobressai, especialmente nas ligações com o Sul e o Centro Norte, refletindo seu relevante potencial comercial, sua localização estratégica e a baixa distância, favorecida pelo parâmetro de impedância negativo. Esse valor de n inverte o efeito tradicional da impedância, privilegiando deslocamentos ligeiramente mais longos, o que é coerente com a lógica de que viagens muito curtas tendem a ser mais bem atendidas por modos terrestres convencionais.
 
@@ -310,13 +310,13 @@ m – número de alternativas disponíveis
 
 Para a aplicação do modelo, foram utilizadas as mesmas macrozonas e sítios utilizados no Modelo de Gravidade.
 
-A atratividade Aj​ de cada sítio foi atribuída com base na nota final dos oito critérios de avaliação, conforme determinado pelos métodos AHP e AIP no processo de escolha do sítio.
+A atratividade A<sub>j</sub> de cada sítio foi atribuída com base na nota final dos oito critérios de avaliação, conforme determinado pelos métodos AHP e AIP no processo de escolha do sítio.
 
-O deslocamento dij também seguiu o mesmo parâmetro adotado anteriormente, considerando as distâncias aéreas entre macrozonas e vertiportos.
+O deslocamento d<sub>ij</sub> também seguiu o mesmo parâmetro adotado anteriormente, considerando as distâncias aéreas entre macrozonas e vertiportos.
 
 O parâmetro de sensibilidade à distância foi definido a partir de iterações que analisaram o comportamento das probabilidades geradas pela equação, buscando manter a atratividade de viagens eVTOL para destinos mais distantes. Essa escolha segue a mesma lógica apresentada no modelo de gravidade, favorecendo a eficiência do transporte em distâncias maiores.
 
-A aplicação do modelo gera a matriz de probabilidades Pij​, que expressa a probabilidade de um usuário de cada macrozona escolher um determinado vertiporto como ponto de partida ou de chegada.
+A aplicação do modelo gera a matriz de probabilidades P<sub>ij</sub>​, que expressa a probabilidade de um usuário de cada macrozona escolher um determinado vertiporto como ponto de partida ou de chegada.
 
 ## Matriz de probabilidades de escolha entre macrozonas e sítios vertiportuários
 
