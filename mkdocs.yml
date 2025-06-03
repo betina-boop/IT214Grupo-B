@@ -7,9 +7,11 @@ theme:
 nav:
   - Home: index.md
   - Integrantes: integrantes.md
-  - Projeto de Vertiporto: atividade1.md
+  - Projeto: atividade1.md
   - Análise de Demanda: A3.md
-  - Localização Ótima de Vertiporto: Relatorio_Atividade_A4.md
+  - Localização Ótima: Relatorio_Atividade_A4.md
+  - Análise Espacial: A5.md
+  - Security: security.md
   - Referências: referencias.md
 
 
