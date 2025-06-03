@@ -6,7 +6,6 @@ theme:
   custom_dir: 'cinder'
 nav:
   - Home: index.md
-  - Integrantes: integrantes.md
   - Projeto: atividade1.md
   - Análise de Demanda: A3.md
   - Localização Ótima: Relatorio_Atividade_A4.md
