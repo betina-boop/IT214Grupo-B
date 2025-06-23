@@ -1,18 +1,18 @@
 site_name: Grupo B - UAM
 site_url: https://betina-boop.github.io/IT214Grupo-B/
 
-theme:
-  name: null
-  custom_dir: 'cinder'
-nav:
-  - Home: index.md
-  - Projeto: atividade1.md
-  - Análise de Demanda: A3.md
-  - Localização Ótima: Relatorio_Atividade_A4.md
-  - Análise Espacial: A5.md
-  - Dimensionamento Lado Terra: ladoterra.md
-  - Security: security.md
-  - Referências: referencias.md
+# theme:
+#   name: null
+#   custom_dir: 'cinder'
+# nav:
+#   - Home: index.md
+#   - Projeto: atividade1.md
+#   - Análise de Demanda: A3.md
+#   - Localização Ótima: Relatorio_Atividade_A4.md
+#   - Análise Espacial: A5.md
+#   - Dimensionamento Lado Terra: ladoterra.md
+#   - Security: security.md
+#   - Referências: referencias.md
 
 
   
@@ -20,3 +20,21 @@ markdown_extensions:
   toc:
     permalink: true
   admonition: {}
+
+  theme:
+  name: 'material'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+features:
+  - navigation.instant
+  - navigation.sections
+  - content.code.annotate
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_css: true
