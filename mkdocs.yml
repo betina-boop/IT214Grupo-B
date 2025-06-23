@@ -15,13 +15,7 @@ site_url: https://betina-boop.github.io/IT214Grupo-B/
 #   - Referências: referencias.md
 
 
-  
-markdown_extensions:
-  toc:
-    permalink: true
-  admonition: {}
-
-  theme:
+theme:
   name: 'material'
   palette:
     primary: 'indigo'
