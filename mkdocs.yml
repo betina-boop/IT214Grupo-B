@@ -1,27 +1,24 @@
-site_name: Grupo B - UAM
+site_name: Projeto de Vertiporto - Grupo B
 site_url: https://betina-boop.github.io/IT214Grupo-B/
-
-# theme:
-#   name: null
-#   custom_dir: 'cinder'
-# nav:
-#   - Home: index.md
-#   - Projeto: atividade1.md
-#   - Análise de Demanda: A3.md
-#   - Localização Ótima: Relatorio_Atividade_A4.md
-#   - Análise Espacial: A5.md
-#   - Dimensionamento Lado Terra: ladoterra.md
-#   - Security: security.md
-#   - Referências: referencias.md
-
 
 theme:
   name: 'material'
+  logo: imagens/ITA_logo.png
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - toc.integrate
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+  - content.code.annotation
+  - content.code.copy
   palette:
-    primary: 'indigo'
-    accent: 'indigo'
+    primary: 'black'
+    accent: 'cyan'
   font:
-    text: 'Roboto'
+    text: 'Helvetica'
     code: 'Roboto Mono'
 nav:
   - Home: index.md
@@ -33,7 +30,9 @@ nav:
   - Security: security.md
   - Referências: referencias.md
 plugins:
-  - search
-  - minify:
-      minify_html: true
-      minify_css: true
+   - search
+   - minify:
+       minify_html: true
+       minify_css: true
+extra_css:
+  - css/extra.css
