@@ -29,10 +29,15 @@ markdown_extensions:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-features:
-  - navigation.instant
-  - navigation.sections
-  - content.code.annotate
+nav:
+  - Home: index.md
+  - Projeto: atividade1.md
+  - Análise de Demanda: A3.md
+  - Localização Ótima: Relatorio_Atividade_A4.md
+  - Análise Espacial: A5.md
+  - Dimensionamento Lado Terra: ladoterra.md
+  - Security: security.md
+  - Referências: referencias.md
 plugins:
   - search
   - minify:
