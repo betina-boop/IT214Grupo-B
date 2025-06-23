@@ -15,46 +15,46 @@ A cidade escolhida para a pesquisa desenvolvida foi a cidade de Joinville, no es
 
   <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 2rem;">
 
-    <!-- Membro 1 -->
-    <div style="text-align: center; width: 160px;">
-      <div style="width: 100px; height: 100px; margin: 0 auto; transform: rotate(45deg); overflow: hidden; border: 4px solid orange;">
-        <img src="img/betina.jpeg" style="width: 100%; height: 100%; object-fit: cover; transform: rotate(-45deg);">
-      </div>
-      <p style="font-weight: bold; margin: 0.5rem 0 0;">Betina Lenhard</p>
-      <p style="font-size: 0.9rem; margin: 0;">Engenharia Aeroespacial<br>Mestrado CTE-E</p>
-    </div>
+<!-- Membro 1 -->
+<div style="text-align: center; width: 160px;">
+  <div style="width: 100px; height: 100px; margin: 0 auto; overflow: hidden; border: 4px solid orange; border-radius: 50%;">
+    <img src="img/betina.jpeg" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  <p style="font-weight: bold; margin: 0.5rem 0 0;">Betina Lenhard</p>
+  <p style="font-size: 0.9rem; margin: 0;">Engenharia Aeroespacial<br>Mestrado CTE-E</p>
+</div>
 
-    <!-- Membro 2 -->
-    <div style="text-align: center; width: 160px;">
-      <div style="width: 100px; height: 100px; margin: 0 auto; transform: rotate(45deg); overflow: hidden; border: 4px solid orange;">
-        <img src="img/rodrigo.png" style="width: 100%; height: 100%; object-fit: cover; transform: rotate(-45deg);">
-      </div>
-      <p style="font-weight: bold; margin: 0.5rem 0 0;">Rodrigo Furlan</p>
-      <p style="font-size: 0.9rem; margin: 0;">Engenharia Civil<br>Mestrado EIA-T</p>
-    </div>
+<!-- Membro 2 -->
+<div style="text-align: center; width: 160px;">
+  <div style="width: 100px; height: 100px; margin: 0 auto; overflow: hidden; border: 4px solid orange; border-radius: 50%;">
+    <img src="img/rodrigo.png" style="width: 100%; height: 100%; object-fit: cover;">      
+  </div>
+  <p style="font-weight: bold; margin: 0.5rem 0 0;">Rodrigo Furlan</p>
+  <p style="font-size: 0.9rem; margin: 0;">Engenharia Civil<br>Mestrado EIA-T</p>
+</div>
 
-    <!-- Membro 3 -->
-    <div style="text-align: center; width: 160px;">
-      <div style="width: 100px; height: 100px; margin: 0 auto; transform: rotate(45deg); overflow: hidden; border: 4px solid orange;">
-        <img src="img/enzo.png" style="width: 100%; height: 100%; object-fit: cover; transform: rotate(-45deg);">
+<!-- Membro 3 -->
+  <div style="text-align: center; width: 160px;">
+      <div style="width: 100px; height: 100px; margin: 0 auto; overflow: hidden; border: 4px solid orange; border-radius: 50%;">
+        <img src="img/enzo.png" style="width: 100%; height: 100%; object-fit: cover;">      
       </div>
       <p style="font-weight: bold; margin: 0.5rem 0 0;">Enzo Picchiello</p>
       <p style="font-size: 0.9rem; margin: 0;">Logística / Biomedicina<br>Doutorado EIA-T<br>Analista Pleno</p>
     </div>
 
-    <!-- Membro 4 -->
-    <div style="text-align: center; width: 160px;">
-      <div style="width: 100px; height: 100px; margin: 0 auto; transform: rotate(45deg); overflow: hidden; border: 4px solid orange;">
-        <img src="img/guilherme.jpeg" style="width: 100%; height: 100%; object-fit: cover; transform: rotate(-45deg);">
+<!-- Membro 4 -->
+  <div style="text-align: center; width: 160px;">
+      <div style="width: 100px; height: 100px; margin: 0 auto; overflow: hidden; border: 4px solid orange; border-radius: 50%;">
+        <img src="img/guilherme.jpeg" style="width: 100%; height: 100%; object-fit: cover;">      
       </div>
       <p style="font-weight: bold; margin: 0.5rem 0 0;">Guilherme Cabral</p>
       <p style="font-size: 0.9rem; margin: 0;">Engenharia Aeroespacial<br>Mestrado EIA-T</p>
     </div>
 
-    <!-- Membro 5 -->
-    <div style="text-align: center; width: 160px;">
-      <div style="width: 100px; height: 100px; margin: 0 auto; transform: rotate(45deg); overflow: hidden; border: 4px solid orange;">
-        <img src="img/walter.png" style="width: 100%; height: 100%; object-fit: cover; transform: rotate(-45deg);">
+<!-- Membro 5 -->
+  <div style="text-align: center; width: 160px;">
+      <div style="width: 100px; height: 100px; margin: 0 auto; overflow: hidden; border: 4px solid orange; border-radius: 50%;">
+        <img src="img/walter.png" style="width: 100%; height: 100%; object-fit: cover;">      
       </div>
       <p style="font-weight: bold; margin: 0.5rem 0 0;">Walter Sá</p>
       <p style="font-size: 0.9rem; margin: 0;">Ciências Jurídicas<br>Mestrado FEA-USP<br>Analista Pleno</p>

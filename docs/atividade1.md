@@ -1,8 +1,6 @@
 # Cidade de Joinville e principais características
 
-## 1. **Cidade escolhida: Joinville-SC**
-
-## 2. **Critérios de Escolha**
+## Critérios de Escolha
 
 ![Joinville ENAP](imagens/joinville_enap.png)
 
@@ -10,9 +8,8 @@ _Figura 1: Índice de Cidades Empreendedoras ENAP, 2023[1]._
 
 - Inovação;
 - Porte do município;  
----
 
-## 3. **Dados da Cidade**
+### Dados da Cidade
 
 ![Referências](imagens/dados_cidade.png)
 
@@ -20,9 +17,9 @@ _Figura 2: Referências de Joinville, 2023[1] e 2024[2]._
 
 ---
 
-## 4. **Destaques dos Dados**
+### Destaques dos Dados
 
-### 4.1 **Cultura de Inovação**
+#### Cultura de Inovação
 
 ![Cultura de Inovação](imagens/cultura_inovacao.png)
 
@@ -33,7 +30,7 @@ _Figura 3: Centros de Inovação, SCTI[3]._
 - Aceitação social.
 
 
-### 4.2 **Aspectos Demográficos, Socioeconômicos e Culturais**
+#### Aspectos Demográficos, Socioeconômicos e Culturais
 
 Cidade estratégica localizada no norte de Santa Catarina, destacando-se como um importante polo industrial e econômico do estado. Conhecida como a *"Cidade das Flores"* devido à sua rica flora, Joinville é um dos principais centros industriais do Brasil, com forte presemça nos setores **metalúrgico, têxtil e de tecnologia**.
 
@@ -67,7 +64,7 @@ _Figura 5: Remuneração Média Mensal, RAIS[5]._
 _Figura 6: Salário Médio Mensal, IBGE[6]._
 
 
-### 4.3 **Transporte Multimodal**
+#### Transporte Multimodal
 
 **Rodoviário**
 ![acessos](imagens/principais_acessos.png)
@@ -117,7 +114,7 @@ Extensa malha de ciclovias.
 
 A ferrovia que passa pelo limite municipal de Joinville liga a região do porto em São Francisco do Sul à cidade de Mafra. Nesta cidade há conexão ferroviária à malha nacional para Porto Alegre, São Paulo e todo Paraná. A carga transportada inclui farelo de soja, trigo, sucata, cerâmica e bentonita, soja, óleo degomado, sorgo, aveia, milho, fertilizantes, minério de ferro, bobina de aço, ferro gusa e refrigeradores. É necessário aprofundar informações para compreender as associações com o UAM.
 
-### 4.4 **Capacidade de Distribuição Elétrica**
+#### Capacidade de Distribuição Elétrica
 
 ![eletrica](imagens/energia_eletrica.png)
 
@@ -128,7 +125,7 @@ _Figura 12: Linhas de Transmissão Elétrica, Celesc[2]._
 
 ---
 
-## 5. **Alinhamento UAM**
+### Alinhamento UAM
 
 Identificar possíveis aplicações UAM em Joinville, segundo a literatura disponível.
 
@@ -150,7 +147,7 @@ _Figura 15: Diferentes demandas do UAM, Oi Long[9]._
 _Figura 16: Tráfego de Joinville em horário de pico, Google._
 
 
-### **5.1 Casos de uso e subdivisão de operações**
+### Casos de uso e subdivisão de operações
 
 Para a realidade de Joinville, em função da configuração espacial, os casos de uso podem
 ser aglutinados em 3 categorias, se subdividindo em 14 possíveis aplicações/oportunidades.
@@ -167,7 +164,7 @@ _Figura 18: Casos de uso para 50-70 km_
 
 _Figura 19: Casos de uso para 100 km_
 
-### **5.2 Modelo lógico de tomada de decisão**
+### Modelo lógico de tomada de decisão
 
 Premissa “Possível, Viável, Desejável” da inovação, adaptada para o problema: criar
 infraestrutura UAM.
@@ -200,7 +197,7 @@ avaliação do “desejo” acontece antes das demais, pois o desenvolvimento de
 solução está baseado na dor do usuário. Conceito “cabelo pegando fogo”.
 ```
 
-### **5.3 Análise em primeira instância: possibilidade técnica e escolha de sítios**
+### Análise em primeira instância: possibilidade técnica e escolha de sítios
 
 Após o consenso do grupo sobre as aplicações/oportunidades UAM mais moldadas
 à realidade de Joinville (Airport Shuttle; Air Taxi; Air Taxi Intercidades; Evacuação
